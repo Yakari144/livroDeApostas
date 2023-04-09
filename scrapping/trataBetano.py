@@ -5,7 +5,6 @@ with open('leagues.json', 'r') as f:
     data = json.load(f)
 
 last_id = int(data['jogos'][-1]['id'])
-f.close()
 
 fileR = open ("betanoDict.json", "r")
 betanoDict = json.load(fileR)
@@ -34,11 +33,23 @@ for liga in ligas:
             nomeLiga = "Liga Inglesa"
         elif liga == "ESPANHA - LaLiga":
             nomeLiga = "Liga Espanhola"
-        last_id += 1
-        jogoInfo = {"id": str(last_id), "liga":nomeLiga, "jogo":nomeJogo, "data": "Sem Informações", "local": "Sem Informações", "odd1":odd1, "oddx":oddx, "odd2":odd2, "casa": "Betano"}
-        jogos.append(jogoInfo)
+        jogoInfo = {"liga":nomeLiga, "jogo":nomeJogo, "data": "Sem Informações", "local": "Sem Informações", "odd1":odd1, "oddx":oddx, "odd2":odd2, "casa": "Betano"}
         
-
-data['jogos'].extend(jogos)
+        # verifica se o jogo já existe e atualiza as odds em vez de adicioná-lo
+        jogo_existente = False
+        for j in data['jogos']:
+            if j['jogo'] == nomeJogo:
+                j['odd1'] = odd1
+                j['oddx'] = oddx
+                j['odd2'] = odd2
+                jogo_existente = True
+                break
+        
+        # se o jogo não existir, adiciona-o
+        if not jogo_existente:
+            last_id += 1
+            jogoInfo['id'] = str(last_id)
+            data['jogos'].append(jogoInfo)
 
 json.dump(data, fileW, indent=4)
+

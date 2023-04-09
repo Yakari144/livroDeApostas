@@ -89,70 +89,78 @@ exports.index = function() {
 
 exports.liga = function(dados, liga) {
     var html = `
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>${liga}</title>
-                <style>
-                    body {
-                        margin: 0;
-                        padding: 0;
-                        font-family: Arial, sans-serif;
-                        background-color: #fff;
-                    }
-                    
-                    header {
-                        background-color: #024059;
-                        color: #fff;
-                        padding: 20px;
-                        text-align: center;
-                    }
-                    
-                    footer {
-                        background-color: #024059;
-                        color: #fff;
-                        padding: 10px;
-                        text-align: center;
-                        position: sticky;
-                        bottom: 0;
-                        width: 100%;
-                    }
-                    
-                    h1 {
-                        text-align: center;
-                        margin-top: 50px;
-                        margin-bottom: 30px;
-                    }
-                    
-                    table {
-                        border-collapse: collapse;
-                        margin: 20px;
-                        margin-left: auto;
-                        margin-right: auto;
-                        margin-top: 50px;
-                        width: 80%;
-                        max-width: 1000px;
-                    }
-                    
-                    th, td {
-                        text-align: center;
-                        padding: 10px;
-                        border: 1px solid #ddd;
-                    }
-                    
-                    th {
-                        background-color: #026873;
-                        color: #fff;
-                    }
-                    
-                    tr:nth-child(even) {
-                        background-color: #f2f2f2;
-                    }
-                    
-                    tr:hover {
-                        background-color: #ddd;
-                    }
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>${liga}</title>
+        <style>
+            /* Define o tamanho mínimo da janela de visualização */
+            html, body {
+                height: 100%;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            header {
+                background-color: #024059;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            footer {
+                background-color: #024059;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                width: 100%;
+                height: 2.5rem;
+                margin-top: auto; /* Mantém o rodapé no final da página */
+            }
+            
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+            
+            table {
+                border-collapse: collapse;
+                margin: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                width: 80%;
+                max-width: 1000px;
+                flex: 1; /* Faz com que a tabela ocupe todo o espaço restante */
+            }
+            
+            th, td {
+                text-align: center;
+                padding: 10px;
+                border: 1px solid #ddd;
+            }
+            
+            th {
+                background-color: #026873;
+                color: #fff;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            
+            tr:hover {
+                background-color: #ddd;
+            }
                 </style>
             </head>
             <body>
@@ -162,8 +170,8 @@ exports.liga = function(dados, liga) {
                 <table>
                     <thead>
                         <tr>
-                            <th>Equipa da Casa</th>
-                            <th>Equipa Fora</th>
+                            <th>Equipa Casa</th>
+                            <th>Equipa Visitante</th>
                             <th>Data</th>
                             <th>Local</th>
                             <th>Consultar Odds</th>
@@ -210,9 +218,12 @@ exports.jogo = function(dados) {
             <style>
             /* CSS para a página */
             body {
+                display: flex;
+                flex-direction: column;
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
+                min-height: 100vh;
             }
             header {
                 background-color: #024059;
@@ -250,6 +261,9 @@ exports.jogo = function(dados) {
                 padding: 10px;
                 margin: 10px;
             }
+            main {
+                flex: 1; /* Faz com que o main ocupe todo o espaço restante */
+            }
             </style>
         </head>
         <body>
@@ -270,7 +284,7 @@ exports.jogo = function(dados) {
                         <th>Site</th>
                         <th>Odd - Casa</th>
                         <th>Odd - Empate</th>
-                        <th>Odd - Fora</th>
+                        <th>Odd - Visitante</th>
                     </tr>
                 </thead>
                 <tbody>

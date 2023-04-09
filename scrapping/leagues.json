@@ -177,667 +177,6 @@
             "casa": "Betclic"
         },
         {
-            "id": "17",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Arouca\u00a7CS Mar\u00edtimo",
-            "odd1": "1.38",
-            "oddx": "3.3",
-            "odd2": "8.0",
-            "casa": "Betano"
-        },
-        {
-            "id": "18",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Pa\u00e7os de Ferreira\u00a7FC Famalic\u00e3o",
-            "odd1": "2.77",
-            "oddx": "2.92",
-            "odd2": "2.65",
-            "casa": "Betano"
-        },
-        {
-            "id": "19",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Portimonense\u00a7Rio Ave FC",
-            "odd1": "2.55",
-            "oddx": "2.92",
-            "odd2": "2.87",
-            "casa": "Betano"
-        },
-        {
-            "id": "20",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "SC Braga\u00a7Estoril",
-            "odd1": "1.22",
-            "oddx": "5.7",
-            "odd2": "12.5",
-            "casa": "Betano"
-        },
-        {
-            "id": "21",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Casa Pia AC\u00a7Sporting CP",
-            "odd1": "7.8",
-            "oddx": "4.3",
-            "odd2": "1.39",
-            "casa": "Betano"
-        },
-        {
-            "id": "22",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Gil Vicente FC\u00a7GD Chaves",
-            "odd1": "1.93",
-            "oddx": "3.3",
-            "odd2": "3.85",
-            "casa": "Betano"
-        },
-        {
-            "id": "23",
-            "nomeLiga": "Liga Portuguesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Gil Vicente FC\u00a7GD Chaves",
-            "odd1": "1.93",
-            "oddx": "3.3",
-            "odd2": "3.85",
-            "casa": "Betano"
-        },
-        {
-            "id": "24",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Sampdoria\u00a7US Cremonese",
-            "odd1": "2.52",
-            "oddx": "2.22",
-            "odd2": "3.45",
-            "casa": "Betano"
-        },
-        {
-            "id": "25",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Atalanta\u00a7Bolonha",
-            "odd1": "1.9",
-            "oddx": "2.37",
-            "odd2": "5.2",
-            "casa": "Betano"
-        },
-        {
-            "id": "26",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Torino\u00a7AS Roma",
-            "odd1": "3.2",
-            "oddx": "2.8",
-            "odd2": "2.42",
-            "casa": "Betano"
-        },
-        {
-            "id": "27",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Hellas Verona\u00a7Sassuolo",
-            "odd1": "2.37",
-            "oddx": "3.2",
-            "odd2": "2.9",
-            "casa": "Betano"
-        },
-        {
-            "id": "28",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "L\u00e1zio\u00a7Juventus FC",
-            "odd1": "2.67",
-            "oddx": "2.77",
-            "odd2": "2.9",
-            "casa": "Betano"
-        },
-        {
-            "id": "29",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "US Cremonese\u00a7Empoli",
-            "odd1": "2.52",
-            "oddx": "3.2",
-            "odd2": "2.7",
-            "casa": "Betano"
-        },
-        {
-            "id": "30",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Spezia\u00a7L\u00e1zio",
-            "odd1": "4.25",
-            "oddx": "3.5",
-            "odd2": "1.78",
-            "casa": "Betano"
-        },
-        {
-            "id": "31",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Bolonha\u00a7AC Mil\u00e3o",
-            "odd1": "3.5",
-            "oddx": "3.2",
-            "odd2": "2.07",
-            "casa": "Betano"
-        },
-        {
-            "id": "32",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "N\u00e1poles\u00a7Hellas Verona",
-            "odd1": "1.35",
-            "oddx": "4.65",
-            "odd2": "8.25",
-            "casa": "Betano"
-        },
-        {
-            "id": "33",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Inter de Mil\u00e3o\u00a7AC Monza",
-            "odd1": "1.35",
-            "oddx": "4.75",
-            "odd2": "7.8",
-            "casa": "Betano"
-        },
-        {
-            "id": "34",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "US Lecce\u00a7Sampdoria",
-            "odd1": "1.95",
-            "oddx": "3.1",
-            "odd2": "4.05",
-            "casa": "Betano"
-        },
-        {
-            "id": "35",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Torino\u00a7Salernitana",
-            "odd1": "1.65",
-            "oddx": "3.6",
-            "odd2": "5.0",
-            "casa": "Betano"
-        },
-        {
-            "id": "36",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Sassuolo\u00a7Juventus FC",
-            "odd1": "3.95",
-            "oddx": "3.5",
-            "odd2": "1.85",
-            "casa": "Betano"
-        },
-        {
-            "id": "37",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "AS Roma\u00a7Udinese",
-            "odd1": "1.72",
-            "oddx": "3.55",
-            "odd2": "4.65",
-            "casa": "Betano"
-        },
-        {
-            "id": "38",
-            "nomeLiga": "Liga Italiana",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Fiorentina\u00a7Atalanta",
-            "odd1": "2.27",
-            "oddx": "3.35",
-            "odd2": "2.95",
-            "casa": "Betano"
-        },
-        {
-            "id": "39",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Wolverhampton\u00a7Chelsea",
-            "odd1": "1.29",
-            "oddx": "3.4",
-            "odd2": "14.5",
-            "casa": "Betano"
-        },
-        {
-            "id": "40",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Tottenham\u00a7Brighton",
-            "odd1": "3.95",
-            "oddx": "1.75",
-            "odd2": "3.15",
-            "casa": "Betano"
-        },
-        {
-            "id": "41",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Brentford\u00a7Newcastle United",
-            "odd1": "24.0",
-            "oddx": "4.5",
-            "odd2": "1.14",
-            "casa": "Betano"
-        },
-        {
-            "id": "42",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Aston Villa\u00a7Nottingham Forest",
-            "odd1": "1.15",
-            "oddx": "4.35",
-            "odd2": "23.0",
-            "casa": "Betano"
-        },
-        {
-            "id": "43",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Leicester\u00a7Bournemouth",
-            "odd1": "15.5",
-            "oddx": "3.55",
-            "odd2": "1.26",
-            "casa": "Betano"
-        },
-        {
-            "id": "44",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Fulham\u00a7West Ham United",
-            "odd1": "15.5",
-            "oddx": "3.45",
-            "odd2": "1.27",
-            "casa": "Betano"
-        },
-        {
-            "id": "45",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Southampton\u00a7Manchester City",
-            "odd1": "12.5",
-            "oddx": "6.2",
-            "odd2": "1.19",
-            "casa": "Betano"
-        },
-        {
-            "id": "46",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Leeds United\u00a7Crystal Palace",
-            "odd1": "2.05",
-            "oddx": "3.35",
-            "odd2": "3.45",
-            "casa": "Betano"
-        },
-        {
-            "id": "47",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Liverpool\u00a7Arsenal",
-            "odd1": "2.6",
-            "oddx": "3.55",
-            "odd2": "2.42",
-            "casa": "Betano"
-        },
-        {
-            "id": "48",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Aston Villa\u00a7Newcastle United",
-            "odd1": "3.15",
-            "oddx": "3.25",
-            "odd2": "2.2",
-            "casa": "Betano"
-        },
-        {
-            "id": "49",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Wolverhampton\u00a7Brentford",
-            "odd1": "2.4",
-            "oddx": "3.15",
-            "odd2": "2.87",
-            "casa": "Betano"
-        },
-        {
-            "id": "50",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Everton\u00a7Fulham",
-            "odd1": "2.0",
-            "oddx": "3.4",
-            "odd2": "3.55",
-            "casa": "Betano"
-        },
-        {
-            "id": "51",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Chelsea\u00a7Brighton",
-            "odd1": "2.35",
-            "oddx": "3.3",
-            "odd2": "2.87",
-            "casa": "Betano"
-        },
-        {
-            "id": "52",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Tottenham\u00a7Bournemouth",
-            "odd1": "1.38",
-            "oddx": "4.85",
-            "odd2": "6.7",
-            "casa": "Betano"
-        },
-        {
-            "id": "53",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Southampton\u00a7Crystal Palace",
-            "odd1": "2.37",
-            "oddx": "3.2",
-            "odd2": "2.87",
-            "casa": "Betano"
-        },
-        {
-            "id": "54",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Nottingham Forest\u00a7Manchester United",
-            "odd1": "5.4",
-            "oddx": "4.05",
-            "odd2": "1.55",
-            "casa": "Betano"
-        },
-        {
-            "id": "55",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "West Ham United\u00a7Arsenal",
-            "odd1": "5.3",
-            "oddx": "4.0",
-            "odd2": "1.55",
-            "casa": "Betano"
-        },
-        {
-            "id": "56",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Manchester City\u00a7Leicester",
-            "odd1": "1.17",
-            "oddx": "7.0",
-            "odd2": "12.5",
-            "casa": "Betano"
-        },
-        {
-            "id": "57",
-            "nomeLiga": "Liga Inglesa",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Leeds United\u00a7Liverpool",
-            "odd1": "4.0",
-            "oddx": "4.05",
-            "odd2": "1.7",
-            "casa": "Betano"
-        },
-        {
-            "id": "58",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Espanyol\u00a7Athletic Bilbao",
-            "odd1": "17.5",
-            "oddx": "4.25",
-            "odd2": "1.18",
-            "casa": "Betano"
-        },
-        {
-            "id": "59",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Real Sociedad\u00a7Getafe",
-            "odd1": "1.62",
-            "oddx": "3.4",
-            "odd2": "6.0",
-            "casa": "Betano"
-        },
-        {
-            "id": "60",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Real Madrid\u00a7Villarreal",
-            "odd1": "1.4",
-            "oddx": "4.75",
-            "odd2": "6.5",
-            "casa": "Betano"
-        },
-        {
-            "id": "61",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Real Valladolid\u00a7Maiorca",
-            "odd1": "2.52",
-            "oddx": "2.72",
-            "odd2": "3.15",
-            "casa": "Betano"
-        },
-        {
-            "id": "62",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "B\u00e9tis\u00a7C\u00e1diz CF",
-            "odd1": "1.62",
-            "oddx": "3.65",
-            "odd2": "5.3",
-            "casa": "Betano"
-        },
-        {
-            "id": "63",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "UD Almer\u00eda\u00a7Val\u00eancia",
-            "odd1": "2.92",
-            "oddx": "3.15",
-            "odd2": "2.37",
-            "casa": "Betano"
-        },
-        {
-            "id": "64",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Rayo Vallecano\u00a7Atl\u00e9tico de Madrid",
-            "odd1": "4.15",
-            "oddx": "3.45",
-            "odd2": "1.82",
-            "casa": "Betano"
-        },
-        {
-            "id": "65",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Barcelona\u00a7Girona FC",
-            "odd1": "1.26",
-            "oddx": "5.5",
-            "odd2": "9.75",
-            "casa": "Betano"
-        },
-        {
-            "id": "66",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Rayo Vallecano\u00a7Osasuna",
-            "odd1": "2.05",
-            "oddx": "3.15",
-            "odd2": "3.7",
-            "casa": "Betano"
-        },
-        {
-            "id": "67",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Villarreal\u00a7Real Valladolid",
-            "odd1": "1.4",
-            "oddx": "4.65",
-            "odd2": "6.8",
-            "casa": "Betano"
-        },
-        {
-            "id": "68",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Athletic Bilbao\u00a7Real Sociedad",
-            "odd1": "2.18",
-            "oddx": "3.05",
-            "odd2": "3.4",
-            "casa": "Betano"
-        },
-        {
-            "id": "69",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "C\u00e1diz CF\u00a7Real Madrid",
-            "odd1": "6.3",
-            "oddx": "4.4",
-            "odd2": "1.45",
-            "casa": "Betano"
-        },
-        {
-            "id": "70",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Girona FC\u00a7Elche",
-            "odd1": "1.55",
-            "oddx": "4.0",
-            "odd2": "5.4",
-            "casa": "Betano"
-        },
-        {
-            "id": "71",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Getafe\u00a7Barcelona",
-            "odd1": "6.0",
-            "oddx": "4.1",
-            "odd2": "1.5",
-            "casa": "Betano"
-        },
-        {
-            "id": "72",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Atl\u00e9tico de Madrid\u00a7UD Almer\u00eda",
-            "odd1": "1.26",
-            "oddx": "5.6",
-            "odd2": "9.75",
-            "casa": "Betano"
-        },
-        {
-            "id": "73",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Celta de Vigo\u00a7Maiorca",
-            "odd1": "1.83",
-            "oddx": "3.2",
-            "odd2": "4.45",
-            "casa": "Betano"
-        },
-        {
-            "id": "74",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "B\u00e9tis\u00a7Espanyol",
-            "odd1": "1.7",
-            "oddx": "3.6",
-            "odd2": "4.8",
-            "casa": "Betano"
-        },
-        {
-            "id": "75",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Val\u00eancia\u00a7Sevilha",
-            "odd1": "2.18",
-            "oddx": "3.15",
-            "odd2": "3.35",
-            "casa": "Betano"
-        },
-        {
-            "id": "76",
-            "nomeLiga": "Liga Espanhola",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "nomeJogo": "Val\u00eancia\u00a7Sevilha",
-            "odd1": "2.18",
-            "oddx": "3.15",
-            "odd2": "3.35",
-            "casa": "Betano"
-        },
-        {
-            "id": "77",
             "liga": "Liga Portuguesa",
             "jogo": "Arouca\u00a7CS Mar\u00edtimo",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -845,10 +184,10 @@
             "odd1": "1.38",
             "oddx": "3.3",
             "odd2": "8.0",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "17"
         },
         {
-            "id": "78",
             "liga": "Liga Portuguesa",
             "jogo": "Pa\u00e7os de Ferreira\u00a7FC Famalic\u00e3o",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -856,10 +195,10 @@
             "odd1": "2.77",
             "oddx": "2.92",
             "odd2": "2.65",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "18"
         },
         {
-            "id": "79",
             "liga": "Liga Portuguesa",
             "jogo": "Portimonense\u00a7Rio Ave FC",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -867,10 +206,10 @@
             "odd1": "2.55",
             "oddx": "2.92",
             "odd2": "2.87",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "19"
         },
         {
-            "id": "80",
             "liga": "Liga Portuguesa",
             "jogo": "SC Braga\u00a7Estoril",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -878,10 +217,10 @@
             "odd1": "1.22",
             "oddx": "5.7",
             "odd2": "12.5",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "20"
         },
         {
-            "id": "81",
             "liga": "Liga Portuguesa",
             "jogo": "Casa Pia AC\u00a7Sporting CP",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -889,10 +228,10 @@
             "odd1": "7.8",
             "oddx": "4.3",
             "odd2": "1.39",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "21"
         },
         {
-            "id": "82",
             "liga": "Liga Portuguesa",
             "jogo": "Gil Vicente FC\u00a7GD Chaves",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -900,21 +239,10 @@
             "odd1": "1.93",
             "oddx": "3.3",
             "odd2": "3.85",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "22"
         },
         {
-            "id": "83",
-            "liga": "Liga Portuguesa",
-            "jogo": "Gil Vicente FC\u00a7GD Chaves",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "odd1": "1.93",
-            "oddx": "3.3",
-            "odd2": "3.85",
-            "casa": "Betano"
-        },
-        {
-            "id": "84",
             "liga": "Liga Italiana",
             "jogo": "Sampdoria\u00a7US Cremonese",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -922,10 +250,10 @@
             "odd1": "2.52",
             "oddx": "2.22",
             "odd2": "3.45",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "23"
         },
         {
-            "id": "85",
             "liga": "Liga Italiana",
             "jogo": "Atalanta\u00a7Bolonha",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -933,10 +261,10 @@
             "odd1": "1.9",
             "oddx": "2.37",
             "odd2": "5.2",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "24"
         },
         {
-            "id": "86",
             "liga": "Liga Italiana",
             "jogo": "Torino\u00a7AS Roma",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -944,10 +272,10 @@
             "odd1": "3.2",
             "oddx": "2.8",
             "odd2": "2.42",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "25"
         },
         {
-            "id": "87",
             "liga": "Liga Italiana",
             "jogo": "Hellas Verona\u00a7Sassuolo",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -955,10 +283,10 @@
             "odd1": "2.37",
             "oddx": "3.2",
             "odd2": "2.9",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "26"
         },
         {
-            "id": "88",
             "liga": "Liga Italiana",
             "jogo": "L\u00e1zio\u00a7Juventus FC",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -966,10 +294,10 @@
             "odd1": "2.67",
             "oddx": "2.77",
             "odd2": "2.9",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "27"
         },
         {
-            "id": "89",
             "liga": "Liga Italiana",
             "jogo": "US Cremonese\u00a7Empoli",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -977,10 +305,10 @@
             "odd1": "2.52",
             "oddx": "3.2",
             "odd2": "2.7",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "28"
         },
         {
-            "id": "90",
             "liga": "Liga Italiana",
             "jogo": "Spezia\u00a7L\u00e1zio",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -988,10 +316,10 @@
             "odd1": "4.25",
             "oddx": "3.5",
             "odd2": "1.78",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "29"
         },
         {
-            "id": "91",
             "liga": "Liga Italiana",
             "jogo": "Bolonha\u00a7AC Mil\u00e3o",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -999,10 +327,10 @@
             "odd1": "3.5",
             "oddx": "3.2",
             "odd2": "2.07",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "30"
         },
         {
-            "id": "92",
             "liga": "Liga Italiana",
             "jogo": "N\u00e1poles\u00a7Hellas Verona",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1010,10 +338,10 @@
             "odd1": "1.35",
             "oddx": "4.65",
             "odd2": "8.25",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "31"
         },
         {
-            "id": "93",
             "liga": "Liga Italiana",
             "jogo": "Inter de Mil\u00e3o\u00a7AC Monza",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1021,10 +349,10 @@
             "odd1": "1.35",
             "oddx": "4.75",
             "odd2": "7.8",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "32"
         },
         {
-            "id": "94",
             "liga": "Liga Italiana",
             "jogo": "US Lecce\u00a7Sampdoria",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1032,10 +360,10 @@
             "odd1": "1.95",
             "oddx": "3.1",
             "odd2": "4.05",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "33"
         },
         {
-            "id": "95",
             "liga": "Liga Italiana",
             "jogo": "Torino\u00a7Salernitana",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1043,10 +371,10 @@
             "odd1": "1.65",
             "oddx": "3.6",
             "odd2": "5.0",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "34"
         },
         {
-            "id": "96",
             "liga": "Liga Italiana",
             "jogo": "Sassuolo\u00a7Juventus FC",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1054,10 +382,10 @@
             "odd1": "3.95",
             "oddx": "3.5",
             "odd2": "1.85",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "35"
         },
         {
-            "id": "97",
             "liga": "Liga Italiana",
             "jogo": "AS Roma\u00a7Udinese",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1065,10 +393,10 @@
             "odd1": "1.72",
             "oddx": "3.55",
             "odd2": "4.65",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "36"
         },
         {
-            "id": "98",
             "liga": "Liga Italiana",
             "jogo": "Fiorentina\u00a7Atalanta",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1076,10 +404,10 @@
             "odd1": "2.27",
             "oddx": "3.35",
             "odd2": "2.95",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "37"
         },
         {
-            "id": "99",
             "liga": "Liga Inglesa",
             "jogo": "Wolverhampton\u00a7Chelsea",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1087,10 +415,10 @@
             "odd1": "1.29",
             "oddx": "3.4",
             "odd2": "14.5",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "38"
         },
         {
-            "id": "100",
             "liga": "Liga Inglesa",
             "jogo": "Tottenham\u00a7Brighton",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1098,10 +426,10 @@
             "odd1": "3.95",
             "oddx": "1.75",
             "odd2": "3.15",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "39"
         },
         {
-            "id": "101",
             "liga": "Liga Inglesa",
             "jogo": "Brentford\u00a7Newcastle United",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1109,10 +437,10 @@
             "odd1": "24.0",
             "oddx": "4.5",
             "odd2": "1.14",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "40"
         },
         {
-            "id": "102",
             "liga": "Liga Inglesa",
             "jogo": "Aston Villa\u00a7Nottingham Forest",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1120,10 +448,10 @@
             "odd1": "1.15",
             "oddx": "4.35",
             "odd2": "23.0",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "41"
         },
         {
-            "id": "103",
             "liga": "Liga Inglesa",
             "jogo": "Leicester\u00a7Bournemouth",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1131,10 +459,10 @@
             "odd1": "15.5",
             "oddx": "3.55",
             "odd2": "1.26",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "42"
         },
         {
-            "id": "104",
             "liga": "Liga Inglesa",
             "jogo": "Fulham\u00a7West Ham United",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1142,10 +470,10 @@
             "odd1": "15.5",
             "oddx": "3.45",
             "odd2": "1.27",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "43"
         },
         {
-            "id": "105",
             "liga": "Liga Inglesa",
             "jogo": "Southampton\u00a7Manchester City",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1153,10 +481,10 @@
             "odd1": "12.5",
             "oddx": "6.2",
             "odd2": "1.19",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "44"
         },
         {
-            "id": "106",
             "liga": "Liga Inglesa",
             "jogo": "Leeds United\u00a7Crystal Palace",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1164,10 +492,10 @@
             "odd1": "2.05",
             "oddx": "3.35",
             "odd2": "3.45",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "45"
         },
         {
-            "id": "107",
             "liga": "Liga Inglesa",
             "jogo": "Liverpool\u00a7Arsenal",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1175,10 +503,10 @@
             "odd1": "2.6",
             "oddx": "3.55",
             "odd2": "2.42",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "46"
         },
         {
-            "id": "108",
             "liga": "Liga Inglesa",
             "jogo": "Aston Villa\u00a7Newcastle United",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1186,10 +514,10 @@
             "odd1": "3.15",
             "oddx": "3.25",
             "odd2": "2.2",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "47"
         },
         {
-            "id": "109",
             "liga": "Liga Inglesa",
             "jogo": "Wolverhampton\u00a7Brentford",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1197,10 +525,10 @@
             "odd1": "2.4",
             "oddx": "3.15",
             "odd2": "2.87",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "48"
         },
         {
-            "id": "110",
             "liga": "Liga Inglesa",
             "jogo": "Everton\u00a7Fulham",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1208,10 +536,10 @@
             "odd1": "2.0",
             "oddx": "3.4",
             "odd2": "3.55",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "49"
         },
         {
-            "id": "111",
             "liga": "Liga Inglesa",
             "jogo": "Chelsea\u00a7Brighton",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1219,10 +547,10 @@
             "odd1": "2.35",
             "oddx": "3.3",
             "odd2": "2.87",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "50"
         },
         {
-            "id": "112",
             "liga": "Liga Inglesa",
             "jogo": "Tottenham\u00a7Bournemouth",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1230,10 +558,10 @@
             "odd1": "1.38",
             "oddx": "4.85",
             "odd2": "6.7",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "51"
         },
         {
-            "id": "113",
             "liga": "Liga Inglesa",
             "jogo": "Southampton\u00a7Crystal Palace",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1241,10 +569,10 @@
             "odd1": "2.37",
             "oddx": "3.2",
             "odd2": "2.87",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "52"
         },
         {
-            "id": "114",
             "liga": "Liga Inglesa",
             "jogo": "Nottingham Forest\u00a7Manchester United",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1252,10 +580,10 @@
             "odd1": "5.4",
             "oddx": "4.05",
             "odd2": "1.55",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "53"
         },
         {
-            "id": "115",
             "liga": "Liga Inglesa",
             "jogo": "West Ham United\u00a7Arsenal",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1263,10 +591,10 @@
             "odd1": "5.3",
             "oddx": "4.0",
             "odd2": "1.55",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "54"
         },
         {
-            "id": "116",
             "liga": "Liga Inglesa",
             "jogo": "Manchester City\u00a7Leicester",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1274,10 +602,10 @@
             "odd1": "1.17",
             "oddx": "7.0",
             "odd2": "12.5",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "55"
         },
         {
-            "id": "117",
             "liga": "Liga Inglesa",
             "jogo": "Leeds United\u00a7Liverpool",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1285,10 +613,10 @@
             "odd1": "4.0",
             "oddx": "4.05",
             "odd2": "1.7",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "56"
         },
         {
-            "id": "118",
             "liga": "Liga Espanhola",
             "jogo": "Espanyol\u00a7Athletic Bilbao",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1296,10 +624,10 @@
             "odd1": "17.5",
             "oddx": "4.25",
             "odd2": "1.18",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "57"
         },
         {
-            "id": "119",
             "liga": "Liga Espanhola",
             "jogo": "Real Sociedad\u00a7Getafe",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1307,10 +635,10 @@
             "odd1": "1.62",
             "oddx": "3.4",
             "odd2": "6.0",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "58"
         },
         {
-            "id": "120",
             "liga": "Liga Espanhola",
             "jogo": "Real Madrid\u00a7Villarreal",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1318,10 +646,10 @@
             "odd1": "1.4",
             "oddx": "4.75",
             "odd2": "6.5",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "59"
         },
         {
-            "id": "121",
             "liga": "Liga Espanhola",
             "jogo": "Real Valladolid\u00a7Maiorca",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1329,10 +657,10 @@
             "odd1": "2.52",
             "oddx": "2.72",
             "odd2": "3.15",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "60"
         },
         {
-            "id": "122",
             "liga": "Liga Espanhola",
             "jogo": "B\u00e9tis\u00a7C\u00e1diz CF",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1340,10 +668,10 @@
             "odd1": "1.62",
             "oddx": "3.65",
             "odd2": "5.3",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "61"
         },
         {
-            "id": "123",
             "liga": "Liga Espanhola",
             "jogo": "UD Almer\u00eda\u00a7Val\u00eancia",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1351,10 +679,10 @@
             "odd1": "2.92",
             "oddx": "3.15",
             "odd2": "2.37",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "62"
         },
         {
-            "id": "124",
             "liga": "Liga Espanhola",
             "jogo": "Rayo Vallecano\u00a7Atl\u00e9tico de Madrid",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1362,10 +690,10 @@
             "odd1": "4.15",
             "oddx": "3.45",
             "odd2": "1.82",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "63"
         },
         {
-            "id": "125",
             "liga": "Liga Espanhola",
             "jogo": "Barcelona\u00a7Girona FC",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1373,10 +701,10 @@
             "odd1": "1.26",
             "oddx": "5.5",
             "odd2": "9.75",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "64"
         },
         {
-            "id": "126",
             "liga": "Liga Espanhola",
             "jogo": "Rayo Vallecano\u00a7Osasuna",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1384,10 +712,10 @@
             "odd1": "2.05",
             "oddx": "3.15",
             "odd2": "3.7",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "65"
         },
         {
-            "id": "127",
             "liga": "Liga Espanhola",
             "jogo": "Villarreal\u00a7Real Valladolid",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1395,10 +723,10 @@
             "odd1": "1.4",
             "oddx": "4.65",
             "odd2": "6.8",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "66"
         },
         {
-            "id": "128",
             "liga": "Liga Espanhola",
             "jogo": "Athletic Bilbao\u00a7Real Sociedad",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1406,10 +734,10 @@
             "odd1": "2.18",
             "oddx": "3.05",
             "odd2": "3.4",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "67"
         },
         {
-            "id": "129",
             "liga": "Liga Espanhola",
             "jogo": "C\u00e1diz CF\u00a7Real Madrid",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1417,10 +745,10 @@
             "odd1": "6.3",
             "oddx": "4.4",
             "odd2": "1.45",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "68"
         },
         {
-            "id": "130",
             "liga": "Liga Espanhola",
             "jogo": "Girona FC\u00a7Elche",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1428,10 +756,10 @@
             "odd1": "1.55",
             "oddx": "4.0",
             "odd2": "5.4",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "69"
         },
         {
-            "id": "131",
             "liga": "Liga Espanhola",
             "jogo": "Getafe\u00a7Barcelona",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1439,10 +767,10 @@
             "odd1": "6.0",
             "oddx": "4.1",
             "odd2": "1.5",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "70"
         },
         {
-            "id": "132",
             "liga": "Liga Espanhola",
             "jogo": "Atl\u00e9tico de Madrid\u00a7UD Almer\u00eda",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1450,10 +778,10 @@
             "odd1": "1.26",
             "oddx": "5.6",
             "odd2": "9.75",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "71"
         },
         {
-            "id": "133",
             "liga": "Liga Espanhola",
             "jogo": "Celta de Vigo\u00a7Maiorca",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1461,10 +789,10 @@
             "odd1": "1.83",
             "oddx": "3.2",
             "odd2": "4.45",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "72"
         },
         {
-            "id": "134",
             "liga": "Liga Espanhola",
             "jogo": "B\u00e9tis\u00a7Espanyol",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1472,10 +800,10 @@
             "odd1": "1.7",
             "oddx": "3.6",
             "odd2": "4.8",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "73"
         },
         {
-            "id": "135",
             "liga": "Liga Espanhola",
             "jogo": "Val\u00eancia\u00a7Sevilha",
             "data": "Sem Informa\u00e7\u00f5es",
@@ -1483,18 +811,8 @@
             "odd1": "2.18",
             "oddx": "3.15",
             "odd2": "3.35",
-            "casa": "Betano"
-        },
-        {
-            "id": "136",
-            "liga": "Liga Espanhola",
-            "jogo": "Val\u00eancia\u00a7Sevilha",
-            "data": "Sem Informa\u00e7\u00f5es",
-            "local": "Sem Informa\u00e7\u00f5es",
-            "odd1": "2.18",
-            "oddx": "3.15",
-            "odd2": "3.35",
-            "casa": "Betano"
+            "casa": "Betano",
+            "id": "74"
         }
     ]
 }

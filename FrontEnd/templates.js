@@ -114,7 +114,7 @@ exports.liga = function(dados, liga) {
                         color: #fff;
                         padding: 10px;
                         text-align: center;
-                        position: absolute;
+                        position: sticky;
                         bottom: 0;
                         width: 100%;
                     }
@@ -224,7 +224,7 @@ exports.jogo = function(dados) {
                 background-color: #024059;
                 color: white;
                 padding: 10px;
-                position: fixed;
+                position: sticky;
                 bottom: 0;
                 text-align: center;
                 width: 100%;
@@ -245,7 +245,6 @@ exports.jogo = function(dados) {
             tr:nth-child(even) {
                 background-color: #f2f2f2;
             }
-
             .container {
                 background-color: #ffffff;
                 padding: 10px;

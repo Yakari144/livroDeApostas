@@ -1,0 +1,2746 @@
+[
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Real Madrid — Villarreal",
+        "startDate": "2023-04-08T22:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164613906-real-madrid-villarreal",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Real Madrid",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Real Madrid",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Villarreal",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164613906-real-madrid-villarreal",
+                "name": "V1",
+                "price": "1.43"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164613906-real-madrid-villarreal",
+                "name": "V2",
+                "price": "6.6"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Real Valladolid — Mallorca",
+        "startDate": "2023-04-09T15:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614856-real-valladolid-mallorca",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Real Valladolid",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Real Valladolid",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Mallorca",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614856-real-valladolid-mallorca",
+                "name": "V1",
+                "price": "2.59"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614856-real-valladolid-mallorca",
+                "name": "V2",
+                "price": "3.168"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Real Betis — Cádiz",
+        "startDate": "2023-04-09T17:15:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614864-real-betis-cadiz",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Real Betis",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Real Betis",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Cádiz",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T17:15:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614864-real-betis-cadiz",
+                "name": "V1",
+                "price": "1.69"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T17:15:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614864-real-betis-cadiz",
+                "name": "V2",
+                "price": "5.15"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "UD Almería — Valência",
+        "startDate": "2023-04-09T19:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614863-ud-almera-valencia",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "UD Almería",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "UD Almería",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Valência",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T19:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614863-ud-almera-valencia",
+                "name": "V1",
+                "price": "3.09"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T19:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164614863-ud-almera-valencia",
+                "name": "V2",
+                "price": "2.375"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da Casa (Estatísticas) — Equipa visitantes (Estatísticas)",
+        "startDate": "2023-04-09T15:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/166294453-home-statistics-away-statistics",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da Casa (Estatísticas)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da Casa (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitantes (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/166294453-home-statistics-away-statistics",
+                "name": "V1"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/166294453-home-statistics-away-statistics",
+                "name": "V2"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da casa (gols) — Equipa visitante (gols)",
+        "startDate": "2023-04-09T15:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164616351-home-goals-away-goals",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Espanha. La Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da casa (gols)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da casa (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitante (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Espanha. La Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164616351-home-goals-away-goals",
+                "name": "V1",
+                "price": "2.074"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T15:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/127733-spain-la-liga\/164616351-home-goals-away-goals",
+                "name": "V2",
+                "price": "2.219"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Lazio — Juventus",
+        "startDate": "2023-04-08T21:45:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/110163-italy-serie-a\/164622706-lazio-juventus",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Italiano de Futebol. Série A",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Lazio",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Lazio",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Italiano de Futebol. Série A",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Juventus",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Italiano de Futebol. Série A",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:45:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/110163-italy-serie-a\/164622706-lazio-juventus",
+                "name": "V1",
+                "price": "2.78"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:45:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/110163-italy-serie-a\/164622706-lazio-juventus",
+                "name": "V2",
+                "price": "2.9"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Nice — Paris Saint-Germain",
+        "startDate": "2023-04-08T22:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526926-nice-paris-saint-germain",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Nice",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Nice",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Paris Saint-Germain",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526926-nice-paris-saint-germain",
+                "name": "V1",
+                "price": "4.38"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526926-nice-paris-saint-germain",
+                "name": "V2",
+                "price": "1.785"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Lyon — Stade Rennais",
+        "startDate": "2023-04-09T14:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526916-lyon-stade-rennais",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Lyon",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Lyon",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Stade Rennais",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526916-lyon-stade-rennais",
+                "name": "V1",
+                "price": "2.11"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164526916-lyon-stade-rennais",
+                "name": "V2",
+                "price": "3.38"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "AC Ajaccio — Auxerre",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534903-ac-ajaccio-auxerre",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "AC Ajaccio",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "AC Ajaccio",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Auxerre",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534903-ac-ajaccio-auxerre",
+                "name": "V1",
+                "price": "2.648"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534903-ac-ajaccio-auxerre",
+                "name": "V2",
+                "price": "2.885"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Montpellier HSC — Toulouse",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534902-montpellier-hsc-toulouse",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Montpellier HSC",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Montpellier HSC",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Toulouse",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534902-montpellier-hsc-toulouse",
+                "name": "V1",
+                "price": "2.025"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534902-montpellier-hsc-toulouse",
+                "name": "V2",
+                "price": "3.46"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Stade de Reims — Stade Brestois 29",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534904-stade-de-reims-stade-brestois-29",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Stade de Reims",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Stade de Reims",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Stade Brestois 29",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534904-stade-de-reims-stade-brestois-29",
+                "name": "V1",
+                "price": "1.58"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534904-stade-de-reims-stade-brestois-29",
+                "name": "V2",
+                "price": "5.5"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Troyes AC — Clermont Foot",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534901-troyes-ac-clermont-foot",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Troyes AC",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Troyes AC",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Clermont Foot",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534901-troyes-ac-clermont-foot",
+                "name": "V1",
+                "price": "2.744"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164534901-troyes-ac-clermont-foot",
+                "name": "V2",
+                "price": "2.555"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Nantes — AS Monaco",
+        "startDate": "2023-04-09T18:05:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164545174-nantes-as-monaco",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Nantes",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Nantes",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "AS Monaco",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T18:05:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164545174-nantes-as-monaco",
+                "name": "V1",
+                "price": "3.76"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T18:05:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164545174-nantes-as-monaco",
+                "name": "V2",
+                "price": "1.93"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da Casa (Estatísticas) — Equipa visitantes (Estatísticas)",
+        "startDate": "2023-04-09T14:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/166653368-home-statistics-away-statistics",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da Casa (Estatísticas)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da Casa (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitantes (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/166653368-home-statistics-away-statistics",
+                "name": "V1"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/166653368-home-statistics-away-statistics",
+                "name": "V2"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da casa (gols) — Equipa visitante (gols)",
+        "startDate": "2023-04-09T14:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587673-home-goals-away-goals",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da casa (gols)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da casa (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitante (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587673-home-goals-away-goals",
+                "name": "V1",
+                "price": "1.945"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T14:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587673-home-goals-away-goals",
+                "name": "V2",
+                "price": "2.196"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Home (Apostas especiais) — Convidados (especial)",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587677-home-special-bets-away-special-bets",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Francês de Futebol. 1ª Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Home (Apostas especiais)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Home (Apostas especiais)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Convidados (especial)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Francês de Futebol. 1ª Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587677-home-special-bets-away-special-bets",
+                "name": "V1",
+                "price": "1.596"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/12821-france-ligue-1\/164587677-home-special-bets-away-special-bets",
+                "name": "V2",
+                "price": "3.265"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "AZ Alkmaar — Sparta Rotterdam",
+        "startDate": "2023-04-08T21:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/164875239-az-alkmaar-sparta-rotterdam",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Países Baixos. Eredivisie",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "AZ Alkmaar",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "AZ Alkmaar",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Sparta Rotterdam",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/164875239-az-alkmaar-sparta-rotterdam",
+                "name": "V1",
+                "price": "1.555"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/164875239-az-alkmaar-sparta-rotterdam",
+                "name": "V2",
+                "price": "5.8"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "PSV Eindhoven — Excelsior",
+        "startDate": "2023-04-08T21:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165977774-psv-eindhoven-excelsior",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Países Baixos. Eredivisie",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "PSV Eindhoven",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "PSV Eindhoven",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Excelsior",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165977774-psv-eindhoven-excelsior",
+                "name": "V1",
+                "price": "1.08"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165977774-psv-eindhoven-excelsior",
+                "name": "V2",
+                "price": "25"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Heerenveen — Volendam",
+        "startDate": "2023-04-08T22:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165918193-heerenveen-volendam",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Países Baixos. Eredivisie",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Heerenveen",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Heerenveen",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Volendam",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Países Baixos. Eredivisie",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165918193-heerenveen-volendam",
+                "name": "V1",
+                "price": "1.545"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/2018750-netherlands-eredivisie\/165918193-heerenveen-volendam",
+                "name": "V2",
+                "price": "5.5"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "SC Braga — Estoril",
+        "startDate": "2023-04-08T22:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118663-portugal-primeira-liga\/165902196-braga-estoril",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Portugal. Primeira Liga",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "SC Braga",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "SC Braga",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Portugal. Primeira Liga",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Estoril",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Portugal. Primeira Liga",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118663-portugal-primeira-liga\/165902196-braga-estoril",
+                "name": "V1",
+                "price": "1.27"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118663-portugal-primeira-liga\/165902196-braga-estoril",
+                "name": "V2",
+                "price": "10.5"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Racing de Santander — Albacete Balompie",
+        "startDate": "2023-04-08T22:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/27687-spain-segunda-division\/165871907-racing-de-santander-albacete-balompie",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato Espanhol. 2ª Divisão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Racing de Santander",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Racing de Santander",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Espanhol. 2ª Divisão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Albacete Balompie",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato Espanhol. 2ª Divisão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/27687-spain-segunda-division\/165871907-racing-de-santander-albacete-balompie",
+                "name": "V1",
+                "price": "2.95"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T22:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/27687-spain-segunda-division\/165871907-racing-de-santander-albacete-balompie",
+                "name": "V2",
+                "price": "2.65"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Gent — Royale Union Saint-Gilloise",
+        "startDate": "2023-04-08T21:45:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/28787-belgium-jupiler-league\/165423926-gent-royale-union-saint-gilloise",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Bélgica. Jupiler League",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Gent",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Gent",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Bélgica. Jupiler League",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Royale Union Saint-Gilloise",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Bélgica. Jupiler League",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:45:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/28787-belgium-jupiler-league\/165423926-gent-royale-union-saint-gilloise",
+                "name": "V1",
+                "price": "2.584"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:45:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/28787-belgium-jupiler-league\/165423926-gent-royale-union-saint-gilloise",
+                "name": "V2",
+                "price": "2.616"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Lech Poznan — Warta Poznan",
+        "startDate": "2023-04-08T21:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/27731-poland-ekstraklasa\/164521762-lech-poznan-warta-poznan",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Polónia",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Lech Poznan",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Lech Poznan",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Polónia",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Warta Poznan",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Polónia",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/27731-poland-ekstraklasa\/164521762-lech-poznan-warta-poznan",
+                "name": "V1",
+                "price": "1.66"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/27731-poland-ekstraklasa\/164521762-lech-poznan-warta-poznan",
+                "name": "V2",
+                "price": "5.45"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Leeds United AFC — Crystal Palace",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164814282-leeds-united-crystal-palace",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Inglaterra. Premier League",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Leeds United AFC",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Leeds United AFC",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Crystal Palace",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164814282-leeds-united-crystal-palace",
+                "name": "V1",
+                "price": "2.11"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164814282-leeds-united-crystal-palace",
+                "name": "V2",
+                "price": "3.5"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Liverpool — Arsenal",
+        "startDate": "2023-04-09T18:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164548755-liverpool-arsenal",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Inglaterra. Premier League",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Liverpool",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Liverpool",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Arsenal",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T18:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164548755-liverpool-arsenal",
+                "name": "V1",
+                "price": "2.712"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T18:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164548755-liverpool-arsenal",
+                "name": "V2",
+                "price": "2.448"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da Casa (Estatísticas) — Equipa visitantes (Estatísticas)",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/166721857-home-statistics-away-statistics",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Inglaterra. Premier League",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da Casa (Estatísticas)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da Casa (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitantes (Estatísticas)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/166721857-home-statistics-away-statistics",
+                "name": "V1"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/166721857-home-statistics-away-statistics",
+                "name": "V2"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da casa (gols) — Equipa visitante (gols)",
+        "startDate": "2023-04-09T16:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164941973-home-goals-away-goals",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Inglaterra. Premier League",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da casa (gols)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da casa (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitante (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Inglaterra. Premier League",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164941973-home-goals-away-goals",
+                "name": "V1",
+                "price": "2.042"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T16:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/88637-england-premier-league\/164941973-home-goals-away-goals",
+                "name": "V2",
+                "price": "2.528"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Cincinnati — Philadelphia Union",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003515-cincinnati-philadelphia-union",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Cincinnati",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Cincinnati",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Philadelphia Union",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003515-cincinnati-philadelphia-union",
+                "name": "V1",
+                "price": "2.02"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003515-cincinnati-philadelphia-union",
+                "name": "V2",
+                "price": "3.76"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "D.C. United — Columbus Crew",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008239-dc-united-columbus-crew",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "D.C. United",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "D.C. United",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Columbus Crew",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008239-dc-united-columbus-crew",
+                "name": "V1",
+                "price": "2.58"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008239-dc-united-columbus-crew",
+                "name": "V2",
+                "price": "2.69"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Inter Miami — Dallas",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008246-inter-miami-dallas",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Inter Miami",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Inter Miami",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Dallas",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008246-inter-miami-dallas",
+                "name": "V1",
+                "price": "2.36"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008246-inter-miami-dallas",
+                "name": "V2",
+                "price": "3.045"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Los Angeles — Austin",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011621-los-angeles-austin",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Los Angeles",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Los Angeles",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Austin",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011621-los-angeles-austin",
+                "name": "V1",
+                "price": "1.43"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011621-los-angeles-austin",
+                "name": "V2",
+                "price": "6.6"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "New England Revolution — CF Montreal",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015295-new-england-revolution-cf-montreal",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "New England Revolution",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "New England Revolution",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "CF Montreal",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015295-new-england-revolution-cf-montreal",
+                "name": "V1",
+                "price": "1.69"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015295-new-england-revolution-cf-montreal",
+                "name": "V2",
+                "price": "4.66"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "New York City — Atlanta United",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003522-new-york-city-atlanta-united",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "New York City",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "New York City",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Atlanta United",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003522-new-york-city-atlanta-united",
+                "name": "V1",
+                "price": "1.99"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166003522-new-york-city-atlanta-united",
+                "name": "V2",
+                "price": "3.62"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "New York Red Bulls — San Jose Earthquakes",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015033-new-york-red-bulls-san-jose-earthquakes",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "New York Red Bulls",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "New York Red Bulls",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "San Jose Earthquakes",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015033-new-york-red-bulls-san-jose-earthquakes",
+                "name": "V1",
+                "price": "1.685"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015033-new-york-red-bulls-san-jose-earthquakes",
+                "name": "V2",
+                "price": "5.1"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da casa (gols) — Equipa visitante (gols)",
+        "startDate": "2023-04-09T02:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166039882-home-goals-away-goals",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da casa (gols)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da casa (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitante (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166039882-home-goals-away-goals",
+                "name": "V1",
+                "price": "1.04"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T02:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166039882-home-goals-away-goals",
+                "name": "V2",
+                "price": "12"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Chicago Fire — Minnesota United",
+        "startDate": "2023-04-09T03:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008243-chicago-fire-minnesota-united",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Chicago Fire",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Chicago Fire",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Minnesota United",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008243-chicago-fire-minnesota-united",
+                "name": "V1",
+                "price": "2.06"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008243-chicago-fire-minnesota-united",
+                "name": "V2",
+                "price": "3.48"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Houston Dynamo — Los Angeles Galaxy",
+        "startDate": "2023-04-09T03:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015350-houston-dynamo-los-angeles-galaxy",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Houston Dynamo",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Houston Dynamo",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Los Angeles Galaxy",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015350-houston-dynamo-los-angeles-galaxy",
+                "name": "V1",
+                "price": "2.24"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015350-houston-dynamo-los-angeles-galaxy",
+                "name": "V2",
+                "price": "3.04"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Nashville — Toronto",
+        "startDate": "2023-04-09T03:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008222-nashville-toronto",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Nashville",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Nashville",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Toronto",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008222-nashville-toronto",
+                "name": "V1",
+                "price": "1.68"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166008222-nashville-toronto",
+                "name": "V2",
+                "price": "4.9"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Sporting Kansas City — Colorado Rapids",
+        "startDate": "2023-04-09T03:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011602-sporting-kansas-city-colorado-rapids",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Sporting Kansas City",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Sporting Kansas City",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Colorado Rapids",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011602-sporting-kansas-city-colorado-rapids",
+                "name": "V1",
+                "price": "1.83"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T03:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166011602-sporting-kansas-city-colorado-rapids",
+                "name": "V2",
+                "price": "4.1"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Real Salt Lake — Charlotte",
+        "startDate": "2023-04-09T04:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166012939-real-salt-lake-charlotte",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Real Salt Lake",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Real Salt Lake",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Charlotte",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T04:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166012939-real-salt-lake-charlotte",
+                "name": "V1",
+                "price": "2"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T04:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166012939-real-salt-lake-charlotte",
+                "name": "V2",
+                "price": "3.58"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Seattle Sounders — St. Louis City",
+        "startDate": "2023-04-09T05:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166037847-seattle-sounders-st-louis-city",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Seattle Sounders",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Seattle Sounders",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "St. Louis City",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T05:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166037847-seattle-sounders-st-louis-city",
+                "name": "V1",
+                "price": "1.61"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T05:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166037847-seattle-sounders-st-louis-city",
+                "name": "V2",
+                "price": "5.25"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Vancouver Whitecaps — Portland Timbers",
+        "startDate": "2023-04-09T05:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015290-vancouver-whitecaps-portland-timbers",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato dos EUA. MLS",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Vancouver Whitecaps",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Vancouver Whitecaps",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Portland Timbers",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato dos EUA. MLS",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T05:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015290-vancouver-whitecaps-portland-timbers",
+                "name": "V1",
+                "price": "1.86"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T05:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/828065-usa-mls\/166015290-vancouver-whitecaps-portland-timbers",
+                "name": "V2",
+                "price": "3.86"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "EUA (Feminino) — República da Irlanda (Feminino)",
+        "startDate": "2023-04-08T21:30:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/1131987-friendlies-national-teams-women\/166353829-usa-women-republic-of-ireland-women",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Amigáveis. Seleções Nacionais Femininas",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "EUA (Feminino)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "EUA (Feminino)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Amigáveis. Seleções Nacionais Femininas",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "República da Irlanda (Feminino)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Amigáveis. Seleções Nacionais Femininas",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/1131987-friendlies-national-teams-women\/166353829-usa-women-republic-of-ireland-women",
+                "name": "V1",
+                "price": "1.045"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-08T21:30:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/1131987-friendlies-national-teams-women\/166353829-usa-women-republic-of-ireland-women",
+                "name": "V2",
+                "price": "41"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Cerezo Osaka — Hokkaido Consadole Sapporo",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165937839-cerezo-osaka-consadole-sapporo",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato do Japão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Cerezo Osaka",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Cerezo Osaka",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Hokkaido Consadole Sapporo",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165937839-cerezo-osaka-consadole-sapporo",
+                "name": "V1",
+                "price": "2.045"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165937839-cerezo-osaka-consadole-sapporo",
+                "name": "V2",
+                "price": "3.44"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Sanfrecce Hiroshima — Sagan Tosu",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165922479-sanfrecce-hiroshima-sagan-tosu",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato do Japão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Sanfrecce Hiroshima",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Sanfrecce Hiroshima",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Sagan Tosu",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165922479-sanfrecce-hiroshima-sagan-tosu",
+                "name": "V1",
+                "price": "1.52"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/165922479-sanfrecce-hiroshima-sagan-tosu",
+                "name": "V2",
+                "price": "6.5"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Vissel Kobe — Albirex Niigata",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166036559-vissel-kobe-albirex-niigata",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato do Japão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Vissel Kobe",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Vissel Kobe",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Albirex Niigata",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166036559-vissel-kobe-albirex-niigata",
+                "name": "V1",
+                "price": "1.72"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166036559-vissel-kobe-albirex-niigata",
+                "name": "V2",
+                "price": "4.92"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Equipa da casa (gols) — Equipa visitante (gols)",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037289-home-goals-away-goals",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato do Japão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Equipa da casa (gols)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa da casa (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Equipa visitante (gols)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037289-home-goals-away-goals",
+                "name": "V1",
+                "price": "1.562"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037289-home-goals-away-goals",
+                "name": "V2",
+                "price": "3.07"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Home (Apostas especiais) — Convidados (especial)",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037287-home-special-bets-away-special-bets",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato do Japão",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Home (Apostas especiais)",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Home (Apostas especiais)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Convidados (especial)",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato do Japão",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037287-home-special-bets-away-special-bets",
+                "name": "V1",
+                "price": "1.323"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/118737-japan-j-league\/166037287-home-special-bets-away-special-bets",
+                "name": "V2",
+                "price": "5.55"
+            }
+        ]
+    },
+    {
+        "@context": "http:\/\/schema.org",
+        "@type": "SportsEvent",
+        "name": "Melbourne Victory — Perth Glory",
+        "startDate": "2023-04-09T08:00:00+03:00",
+        "url": "https:\/\/22bet-bet.com\/line\/football\/104509-australia-a-league\/164522149-melbourne-victory-perth-glory",
+        "organizer": {
+            "@type": "SportsOrganization",
+            "name": "Campeonato da Austrália",
+            "sport": "Futebol "
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Melbourne Victory",
+            "address": "World"
+        },
+        "homeTeam": {
+            "@type": "SportsTeam",
+            "name": "Melbourne Victory",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Austrália",
+                "sport": "Futebol "
+            }
+        },
+        "awayTeam": {
+            "@type": "SportsTeam",
+            "name": "Perth Glory",
+            "sport": "Futebol ",
+            "memberOf": {
+                "@type": "SportsOrganization",
+                "name": "Campeonato da Austrália",
+                "sport": "Futebol "
+            }
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/104509-australia-a-league\/164522149-melbourne-victory-perth-glory",
+                "name": "V1",
+                "price": "1.925"
+            },
+            {
+                "@type": "Offer",
+                "availability": "OnlineOnly",
+                "availabilityEnds": "2023-04-09T08:00:00+03:00",
+                "url": "https:\/\/22bet-bet.com\/line\/football\/104509-australia-a-league\/164522149-melbourne-victory-perth-glory",
+                "name": "V2",
+                "price": "3.74"
+            }
+        ]
+    }
+]

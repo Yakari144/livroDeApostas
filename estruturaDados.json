@@ -1,0 +1,8 @@
+lista_jogos = {
+    site
+    idJogo
+    liga
+    data
+    hora
+    mercados
+}

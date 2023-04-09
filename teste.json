@@ -1,0 +1,360 @@
+{
+    "betclic": {
+        "Italiana": [{
+            "SalernitanaXInter": [
+                {
+                    "Nome": "Salernitana",
+                    "Odd": "30"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "7,00"
+                },
+                {
+                    "Nome": "Inter",
+                    "Odd": "1,05"
+                }
+            ]},{
+            "LecceXNapoles": [
+                {
+                    "Nome": "Lecce",
+                    "Odd": "5,65"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,58"
+                },
+                {
+                    "Nome": "Nápoles",
+                    "Odd": "1,55"
+                }
+            ]},{
+            "MilanXEmpoli": [
+                {
+                    "Nome": "Milan",
+                    "Odd": "1,29"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "5,10"
+                },
+                {
+                    "Nome": "Empoli",
+                    "Odd": "9,15"
+                }
+            ]},{
+            "UdineseXMonza": [
+                {
+                    "Nome": "Udinese",
+                    "Odd": "2,03"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,28"
+                },
+                {
+                    "Nome": "Monza",
+                    "Odd": "3,52"
+                }
+            ]},{
+            "FiorentinaXSpezia": [
+                {
+                    "Nome": "Fiorentina",
+                    "Odd": "1,38"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "4,63"
+                },
+                {
+                    "Nome": "Spezia",
+                    "Odd": "7,30"
+                }
+            ]},{
+            "AtalantaXBolonha": [
+                {
+                    "Nome": "Atalanta",
+                    "Odd": "1,60"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,78"
+                },
+                {
+                    "Nome": "Bolonha",
+                    "Odd": "5,25"
+                }
+            ]},{
+            "SampdoriaXCremonese": [
+                {
+                    "Nome": "Sampdoria",
+                    "Odd": "2,28"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,18"
+                },
+                {
+                    "Nome": "Cremonese",
+                    "Odd": "3,05"
+                }
+            ]},{
+            "TorinoXRoma": [
+                {
+                    "Nome": "Torino",
+                    "Odd": "3,22"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "2,93"
+                },
+                {
+                    "Nome": "Roma",
+                    "Odd": "2,33"
+                }
+            ]},{
+            "VeronaXSassuolo": [
+                {
+                    "Nome": "Verona",
+                    "Odd": "2,56"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,18"
+                },
+                {
+                    "Nome": "Sassuolo",
+                    "Odd": "2,66"
+                }
+            ]},{
+            "LazioXJuventus": [
+                {
+                    "Nome": "Lazio",
+                    "Odd": "2,68"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "2,87"
+                },
+                {
+                    "Nome": "Juventus",
+                    "Odd": "2,79"
+                }
+            ]},{
+            "CremoneseXEmpoli": [
+                {
+                    "Nome": "Cremonese",
+                    "Odd": "2,41"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,10"
+                },
+                {
+                    "Nome": "Empoli",
+                    "Odd": "2,63"
+                }
+            ]},{
+            "SpeziaXLazio": [
+                {
+                    "Nome": "Spezia",
+                    "Odd": "4,03"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,27"
+                },
+                {
+                    "Nome": "Lazio",
+                    "Odd": "1,77"
+                }
+            ]},{
+            "BolonhaXMilan": [
+                {
+                    "Nome": "Bolonha",
+                    "Odd": "3,25"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,10"
+                },
+                {
+                    "Nome": "Milan",
+                    "Odd": "2,04"
+                }
+            ]},{
+            "NapolesXInter": [
+                {
+                    "Nome": "Nápoles",
+                    "Odd": "1,33"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "4,35"
+                },
+                {
+                    "Nome": "Inter",
+                    "Odd": "7,30"
+                }
+            ]},{
+            "EmpoliXSalernitana": [
+                {
+                    "Nome": "Empoli",
+                    "Odd": "1,40"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "4,40"
+                },
+                {
+                    "Nome": "Salernitana",
+                    "Odd": "6,50"
+                }
+            ]},{
+            "MonzaXUdinese": [
+                {
+                    "Nome": "Monza",
+                    "Odd": "3,00"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,20"
+                },
+                {
+                    "Nome": "Udinese",
+                    "Odd": "2,10"
+                }
+            ]},{
+            "SassuoloXFiorentina": [
+                {
+                    "Nome": "Sassuolo",
+                    "Odd": "2,60"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,10"
+                },
+                {
+                    "Nome": "Fiorentina",
+                    "Odd": "2,50"
+                }
+            ]},{
+            "InterXVerona": [
+                {
+                    "Nome": "Inter",
+                    "Odd": "1,05"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "7,00"
+                },
+                {
+                    "Nome": "Verona",
+                    "Odd": "30"
+                }
+            ]},{
+            "LecceXSampdoria": [
+                {
+                    "Nome": "Lecce",
+                    "Odd": "2,80"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,00"
+                },
+                {
+                    "Nome": "Sampdoria",
+                    "Odd": "2,30"
+                }
+            ]}
+        ]
+    },
+    "betano": {
+        "Italiana": {
+            "NapolesXInter": [
+                {
+                    "Nome": "Nápoles",
+                    "Odd": "1,33"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "4,35"
+                },
+                {
+                    "Nome": "Inter",
+                    "Odd": "7,30"
+                }
+            ]},{
+            "MilanXEmpoli": [
+                {
+                    "Nome": "Milan",
+                    "Odd": "1,29"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "5,10"
+                },
+                {
+                    "Nome": "Empoli",
+                    "Odd": "9,15"
+                }
+            ]},{
+            "UdineseXMonza": [
+                {
+                    "Nome": "Udinese",
+                    "Odd": "2,03"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,28"
+                },
+                {
+                    "Nome": "Monza",
+                    "Odd": "3,52"
+                }
+            ]},{
+            "FiorentinaXSpezia": [
+                {
+                    "Nome": "Fiorentina",
+                    "Odd": "1,38"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "4,63"
+                },
+                {
+                    "Nome": "Spezia",
+                    "Odd": "7,30"
+                }
+            ]},{
+            "AtalantaXBolonha": [
+                {
+                    "Nome": "Atalanta",
+                    "Odd": "1,60"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,78"
+                },
+                {
+                    "Nome": "Bolonha",
+                    "Odd": "5,25"
+                }
+            ]},{
+            "SampdoriaXCremonese": [
+                {
+                    "Nome": "Sampdoria",
+                    "Odd": "2,28"
+                },
+                {
+                    "Nome": "Empate",
+                    "Odd": "3,18"
+                },
+                {
+                    "Nome": "Cremonese",
+                    "Odd": "3,05"
+                }
+            ]
+        }
+    }
+}

@@ -109,11 +109,23 @@ def bet22(url,liga):
         json.dump(bet22Dict, f, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
-    #response = requests.get(url)
-    f = open("bwin.html", "r")
-    response = f.read()
-    f.close()
-    soup = BeautifulSoup(response, 'html.parser')
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    driver = webdriver.Chrome(options=options)
+
+    # Acesse a URL desejada
+    driver.get('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851')
+
+    # Aguarde até que o elemento "main-content" seja carregado
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+
+    # Obtenha o HTML da página da web
+    html = driver.page_source
+    
+#    Feche o navegador da web
+    driver.quit()   
+    
+    soup = BeautifulSoup(html, 'html.parser')
     bwinDict = {}
     bwinDict["bwin"]=[]
     
@@ -237,8 +249,8 @@ def betano2():
         betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
-#bwin("https://sports.bwin.pt/pt/sports","liga")
+bwin("https://sports.bwin.pt/pt/sports","liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
-betano2()
+#betano2()
 #casasDict["betano"] = betanoDict["betano"]

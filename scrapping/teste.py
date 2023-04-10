@@ -327,7 +327,7 @@ def betano2():
 
 #  ligas = dados["data"]["leaguesList"]
     ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",
-            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
+            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/#", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
         
     for l in ligas:
         nome = l.split("/")[6]
@@ -342,8 +342,9 @@ def betano2():
         betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
-bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
+#bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()
 #casasDict["betano"] = betanoDict["betano"]
+

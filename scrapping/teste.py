@@ -211,7 +211,7 @@ def bwin(url, liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    jogos = soup.find_all("div", class_="grid-event-wrapper ng-star-inserted")
+    jogos = soup.find_all("div", class_="grid-event-wrapper")
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
@@ -229,12 +229,12 @@ def bwin(url, liga):
         
         obj['local'] = "Sem Informação"
         obj['casa'] = "bwin"
-        obj['id'] = str(last_id)
         
         if len(apostas) >= 3:
             obj['odd1'] = apostas[0]
             obj['oddx'] = apostas[1]
             obj['odd2'] = apostas[2]
+            
             jogo_existente = False
             for j in data['jogos']:
                 if j['jogo'] == obj['jogo']:
@@ -249,6 +249,8 @@ def bwin(url, liga):
                 last_id += 1
                 obj['id'] = str(last_id)
                 data['jogos'].append(obj)
+            
+            print("Novo jogo: ",obj['jogo'])
         else:
             print("Apostas insuficientes: ",apostas)
     

@@ -148,36 +148,65 @@ def bwin(url, liga):
     # json dump to file with utf-8 encoding
     with open('bwin.json', 'w', encoding='utf-8') as f:
         json.dump(bwinDict, f, ensure_ascii=False, indent=4)
+        
 
 def betano(url, liga):
-    global betanoDict
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    betanoDict["bet22"][liga]={}
-
+    betanoDict = {}
+    betanoDict["betano"]=[]
     dados = soup.find_all("body", class_="")[0]
     # get <script> </script> content
     dados = str(dados).split("<script>")[1].split("</script>")[0]
     dados = dados.split("=")[1:]
     dados = "=".join(dados)
     dados = json.loads(dados)
-
     eventos = dados["data"]["blocks"]
+    
+    with open('leagues.json', 'r') as f:
+        data = json.load(f)
+
+    last_id = int(data['jogos'][-1]['id'])
+    
+    fileW = open ("leagues.json", "w+")
+    
+    #Percorrer os diferentes jogos de respetiva liga
     for e in eventos:
         lista_de_jogos = e["events"]
         for j in lista_de_jogos:
-            nome_jogo = j["name"]
-            betanoDict["betano"][liga][nome_jogo] = []
-            mercados = j["markets"]
-            for m in mercados:
-                if m["name"] == "Resultado Final":
-                    selecoes = m["selections"]
-                    for s in selecoes:
-                        equipa = s["name"] # "1"
-                        nomeEquipa = s["fullName"] # "Manchester City"
-                        odd = s["price"] # "1.25"
-                        betanoDict["betano"][liga][nome_jogo].append({"nome":nomeEquipa, "odd":odd})
-    
+            nomeLiga = liga
+            if " - " in j["name"] and j["name"].split(" ")[0] != "Série":
+                nomeJogo = j["name"].split(" - ")[0] + "§" + j["name"].split(" - ")[1]
+                mercados = j["markets"]
+                for m in mercados:
+                    if m["name"] == "Resultado Final":
+                        selecoes = m["selections"]
+                        odd1 = str(selecoes[0]["price"])
+                        oddx = str(selecoes[1]["price"])
+                        odd2 = str(selecoes[2]["price"])
+                
+                jogoInfo = {"liga":nomeLiga, "jogo":nomeJogo, "data": "Sem Informações", "local": "Sem Informações", "odd1":odd1, "oddx":oddx, "odd2":odd2, "casa": "Betano"}
+                
+                jogo_existente = False
+                for j in data['jogos']:
+                    if j['jogo'] == nomeJogo:
+                        j['odd1'] = odd1
+                        j['oddx'] = oddx
+                        j['odd2'] = odd2
+                        jogo_existente = True
+                        break
+        
+            # se o jogo não existir, adiciona-o
+                if not jogo_existente:
+                    last_id += 1
+                    jogoInfo['id'] = str(last_id)
+                    data['jogos'].append(jogoInfo)
+                
+            else :
+                pass
+    json.dump(data, fileW, indent=4)
+            
+            
 def betano2():
     url = "https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/"
     response = requests.get(url)
@@ -191,18 +220,25 @@ def betano2():
     dados = "=".join(dados)
     dados = json.loads(dados)
 
-    ligas = dados["data"]["leaguesList"]
-
+#  ligas = dados["data"]["leaguesList"]
+    ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",
+            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
+        
     for l in ligas:
-        betano("https://www.betano.pt"+l["url"], l["text"])
-    
-    # json dump to file with utf-8 encoding
-    with open('betano.json', 'w', encoding='utf-8') as f:
-        json.dump(betanoDict, f, ensure_ascii=False, indent=4)
+        nome = l.split("/")[6]
+        if nome == "primeira-liga":
+            nomeLiga = "Liga Portuguesa"
+        elif nome == "premier-league":
+            nomeLiga = "Liga Inglesa"
+        elif nome == "serie-a":
+            nomeLiga = "Liga Italiana"
+        elif nome == "laliga":
+            nomeLiga = "Liga Espanhola"
+        betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
 #bwin("https://sports.bwin.pt/pt/sports","liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
-#betano2()
+betano2()
 #casasDict["betano"] = betanoDict["betano"]

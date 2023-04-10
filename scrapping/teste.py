@@ -214,7 +214,7 @@ def bwin(url, liga):
             print("Apostas insuficientes: ",apostas)
     
     # json dump to file with utf-8 encoding
-    with open('bwin.json', 'w', encoding='utf-8') as f:
+    with open('leagues.json', 'w', encoding='utf-8') as f:
         json.dump(bwinDict, f, ensure_ascii=False, indent=4)
         
 def betano(url, liga):
@@ -273,7 +273,7 @@ def betano(url, liga):
             else :
                 pass
     json.dump(data, fileW, indent=4)
-                     
+
 def betano2():
     url = "https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/"
     response = requests.get(url)
@@ -304,7 +304,7 @@ def betano2():
         betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
-#bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"liga")
+bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()

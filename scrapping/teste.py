@@ -138,6 +138,7 @@ def bet22(url,liga):
     
 #    Feche o navegador da web
     driver.quit()   
+    
     with open('leagues.json', 'r') as f:
         data = json.load(f)
     

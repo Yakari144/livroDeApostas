@@ -1,0 +1,114 @@
+{
+    "betclic": [
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Gil Vicente§Chaves",
+            "data": "26'",
+            "odd1": "1,99",
+            "oddx": "2,92",
+            "odd2": "3,40",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 0
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Famalicão§Vitória SC",
+            "data": "14/04/2023",
+            "odd1": "2,13",
+            "oddx": "3,10",
+            "odd2": "3,23",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 1
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Marítimo§Paços de Ferreira",
+            "data": "15/04/2023",
+            "odd1": "2,07",
+            "oddx": "3,15",
+            "odd2": "3,33",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 2
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Estoril§Portimonense",
+            "data": "15/04/2023",
+            "odd1": "2,33",
+            "oddx": "2,98",
+            "odd2": "2,98",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 3
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Chaves§Benfica",
+            "data": "15/04/2023",
+            "odd1": "9,10",
+            "oddx": "5,10",
+            "odd2": "1,26",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 4
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "FC Porto§Santa Clara",
+            "data": "15/04/2023",
+            "odd1": "1,10",
+            "oddx": "7,35",
+            "odd2": "18,25",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 5
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Rio Ave§Casa Pia",
+            "data": "16/04/2023",
+            "odd1": "2,29",
+            "oddx": "2,87",
+            "odd2": "3,18",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 6
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Sp. Braga§Gil Vicente",
+            "data": "16/04/2023",
+            "odd1": "1,31",
+            "oddx": "4,80",
+            "odd2": "7,75",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 7
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Sporting§Arouca",
+            "data": "16/04/2023",
+            "odd1": "1,18",
+            "oddx": "5,95",
+            "odd2": "12,25",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 8
+        },
+        {
+            "liga": "Liga Portuguesa",
+            "jogo": "Vizela§Boavista",
+            "data": "17/04/2023",
+            "odd1": "1,82",
+            "oddx": "3,38",
+            "odd2": "3,93",
+            "local": "Sem Informação",
+            "casa": "betclic",
+            "id": 9
+        }
+    ]
+}

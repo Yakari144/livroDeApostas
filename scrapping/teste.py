@@ -4,6 +4,7 @@ import json
 import os
 import time
 import re
+import unidecode
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -23,33 +24,74 @@ def teste():
         print(e)
         return
 
+#start timer
+start_time = time.time()
 #teste()
+#end timer
+print("--- %s seconds ---" % (time.time() - start_time))
 
+def normaliza(text):
+    text = text.replace(" ","")
+    text = text.lower()
+    text = unidecode.unidecode(text)
+    return text
 
 def myStrip(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 casasDict = {}
 
-def betclic(url):
-    response = requests.get(url)
+def betclic(url,liga):
+    # cada jogo "groupEvents_card"
+    #global betclicDict
+    #response = requests.get(url)
+    f = open("betclic.html", "r")
+    response = f.read()
+    f.close()
+    soup = BeautifulSoup(response, 'html.parser')
+    betclicDict = {}
+    betclicDict["betclic"]=[]
+    
+    jogos = soup.find_all("sports-events-event", class_="groupEvents_card")
+    for j in jogos:
+        obj = {'liga':liga}
+        j_soup = BeautifulSoup(str(j), 'html.parser')
+        eqs = j_soup.find_all("div",class_="scoreboard_contestantLabel")
+        eq1=normaliza(myStrip(eqs[0].text).strip())
+        eq2=normaliza(myStrip(eqs[1].text).strip())
+        
+        if len(eqs) == 2:
+            obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
+        data = myStrip(j_soup.find("div",class_="event_infoTime").text).strip()
+        obj['data'] = myStrip(data.split(" ")[0]).strip()
 
-    soup = BeautifulSoup(response.text, 'html.parser')
+        odds = j_soup.find_all("sports-selections-selection",class_="oddButton")
+        for o in odds:
+            o_soup = BeautifulSoup(str(o), 'html.parser')
+            nome_aposta = normaliza(myStrip(o_soup.find("span",class_="oddMatchName").text).strip())
+            #print(nome_aposta)
+            odd = myStrip(o_soup.find("span",class_="oddValue").text).strip()
+            aposta=""
 
-    odds = []
-    teams = []
+            if eq1 in nome_aposta or nome_aposta in eq1:
+                aposta = "odd1"
+            elif eq2 in nome_aposta or nome_aposta in eq2:
+                aposta = "odd2"
+            elif "empate" in nome_aposta or nome_aposta in "empate":
+                aposta = "oddx"
+            else:
+                print("ERRO: " + nome_aposta+" - "+eq1+" - "+eq2)
+            obj[aposta] = odd
+        obj['local'] = "Sem Informação"
+        obj['casa'] = "betclic"
+        obj['id'] = len(betclicDict["betclic"])
+        betclicDict["betclic"].append(obj)
+    
+    # json dump to file with utf-8 encoding
+    with open('betclic.json', 'w', encoding='utf-8') as f:
+        json.dump(betclicDict, f, ensure_ascii=False, indent=4)
 
-    for div in soup.find_all('span', class_='oddValue'):
-        odd = myStrip(div.text).strip().replace('\n','')
-        odds.append(odd)
-
-    for div in soup.find_all('span', class_='oddMatchName'):
-        team = myStrip(div.text).strip().replace('\n','')
-        teams.append(team)
-
-    for i in range(len(odds)):
-        if i in range(len(teams)):
-            print(str(i) + ": " + teams[i] + " - " + odds[i])
+betclic("asf","Liga Portuguesa")
 
 def betclic2():
     url = 'https://www.betclic.pt/futebol-s1'

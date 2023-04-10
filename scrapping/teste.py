@@ -228,7 +228,6 @@ def bwin(url, liga):
         
         obj['local'] = "Sem Informação"
         obj['casa'] = "bwin"
-        obj['id'] = str(len(bwinDict["bwin"]))
         
         if len(apostas) >= 3:
             obj['odd1'] = apostas[0]

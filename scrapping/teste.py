@@ -124,14 +124,14 @@ def betclic2():
 
 def bet22(url,liga):
     options = webdriver.ChromeOptions()
-    options.add_argument('headless')
+#    options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
     # Acesse a URL desejada
     driver.get(url)
 
     # Aguarde até que o elemento "main-content" seja carregado
-    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "c-events__team")))
 
     # Obtenha o HTML da página da web
     html = driver.page_source
@@ -341,7 +341,7 @@ def betano2():
             nomeLiga = "Liga Espanhola"
         betano(l, nomeLiga)
 
-#bet22("https://22bet-bet.com/pt/line/football","liga")
+bet22("https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga","Liga Portuguesa")
 #bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]

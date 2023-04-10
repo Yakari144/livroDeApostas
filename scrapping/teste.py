@@ -210,7 +210,7 @@ def bwin(url, liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    jogos = soup.find_all("div", class_="grid-event-wrapper ng-star-inserted")
+    jogos = soup.find_all("div", class_="grid-event-wrapper")
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')

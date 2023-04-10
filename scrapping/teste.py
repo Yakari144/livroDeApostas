@@ -1,6 +1,33 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
+import time
+import re
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+def teste():
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    try:
+        driver = webdriver.Chrome(options=chrome_options)
+        driver.get("https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/")
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "event__name")))
+        content = driver.page_source
+        print(content)
+        driver.quit()
+    except Exception as e:
+        print(e)
+        return
+
+#teste()
+
+
+def myStrip(text):
+    return re.sub(r'\s+', ' ', text).strip()
 
 casasDict = {}
 
@@ -13,11 +40,11 @@ def betclic(url):
     teams = []
 
     for div in soup.find_all('span', class_='oddValue'):
-        odd = div.text.strip().replace('\n','')
+        odd = myStrip(div.text).strip().replace('\n','')
         odds.append(odd)
 
     for div in soup.find_all('span', class_='oddMatchName'):
-        team = div.text.strip().replace('\n','')
+        team = myStrip(div.text).strip().replace('\n','')
         teams.append(team)
 
     for i in range(len(odds)):
@@ -41,37 +68,86 @@ def betclic2():
         print(href)
         betclic(href)
 
-
 def bet22(url,liga):
     #global bet22Dict
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    #betanoDict["bet22"][liga]={}
-
+    #response = requests.get(url)
+    f = open("bet22.html", "r")
+    response = f.read()
+    f.close()
+    soup = BeautifulSoup(response, 'html.parser')
+    bet22Dict = {}
+    bet22Dict["bet22"]=[]
     
-    dados = soup.find_all("script", type="application/ld+json")
-    for d in dados:
-        if "SportsEvent" in str(d):
-            dados = d
-            break
-    # get <script> </script> content
-    dados = str(dados).split("<script type=\"application/ld+json\">")[1].split("</script>")[0]
-    print(dados)
-    dados = json.loads(dados)
+    jogos = soup.find_all("div", class_="events__item events__item_col")
+    for j in jogos:
+        obj = {'liga':liga}
+        j_soup = BeautifulSoup(str(j), 'html.parser')
+        obj['jogo'] = myStrip(j_soup.find("span",class_="events-links__info").text).strip()
+        dH = myStrip(j_soup.find("div",class_="events__cell events__cell_row events__cell_time").text).strip()
+        obj['data'] = myStrip(dH.split(" ")[0]).strip()
+        hora = myStrip(dH.split(" ")[1]).strip()
+        odds = j_soup.find_all("div",class_="coef coef__num")
+        for o in odds:
+            o_soup = BeautifulSoup(str(o), 'html.parser')
+            nome_aposta = myStrip(o_soup.find("div",class_="coef__name").text).strip()
+            #print(nome_aposta)
+            odd = myStrip(o.find_all(string=True, recursive=False)[1].text).strip()
 
-    for e in dados:
-        eCasa = e['homeTeam']['name']
-        eFora = e['awayTeam']['name']
-        nome_jogo = eCasa + " § " + eFora
-
-
+            if "1Х2 -" in nome_aposta:
+                team = myStrip(nome_aposta.replace("1Х2 -","")).strip()
+                if team[0] == "V":
+                    team = team[1:]
+                aposta = "odd"+team
+                obj[aposta] = odd
+        obj['local'] = "Sem Informação"
+        obj['casa'] = "22bet"
+        obj['id'] = len(bet22Dict["bet22"])
+        bet22Dict["bet22"].append(obj)
+    
     # json dump to file with utf-8 encoding
-    #with open('bet22.json', 'w', encoding='utf-8') as f:
-    #    json.dump(dados, f, ensure_ascii=False, indent=4)
+    with open('bet22.json', 'w', encoding='utf-8') as f:
+        json.dump(bet22Dict, f, ensure_ascii=False, indent=4)
 
-bet22("https://22bet-bet.com/pt/line/football","liga")
+def bwin(url, liga):
+    #response = requests.get(url)
+    f = open("bwin.html", "r")
+    response = f.read()
+    f.close()
+    soup = BeautifulSoup(response, 'html.parser')
+    bwinDict = {}
+    bwinDict["bwin"]=[]
+    
+    jogos = soup.find_all("div", class_="grid-event-wrapper ng-star-inserted")
+    for j in jogos:
+        obj = {'liga':liga}
+        j_soup = BeautifulSoup(str(j), 'html.parser')
+        eqs = j_soup.find_all("div",class_="participant-container")
+        if len(eqs) == 2:
+            obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
 
-betanoDict = {"bet22":{}}
+        obj['data'] = myStrip(j_soup.find("ms-event-info",class_="grid-event-info").text).strip()
+        odds = j_soup.find_all("div",class_="option-indicator")
+        apostas = []
+        for o in odds:
+            o_soup = BeautifulSoup(str(o), 'html.parser')
+            odd = myStrip(o_soup.find("div",class_="option-value").text).strip()
+            apostas.append(odd)
+        
+        obj['local'] = "Sem Informação"
+        obj['casa'] = "bwin"
+        obj['id'] = str(len(bwinDict["bwin"]))
+        
+        if len(apostas) >= 3:
+            obj['odd1'] = apostas[0]
+            obj['oddx'] = apostas[1]
+            obj['odd2'] = apostas[2]
+            bwinDict["bwin"].append(obj)
+        else:
+            print("Apostas insuficientes: ",apostas)
+    
+    # json dump to file with utf-8 encoding
+    with open('bwin.json', 'w', encoding='utf-8') as f:
+        json.dump(bwinDict, f, ensure_ascii=False, indent=4)
 
 def betano(url, liga):
     global betanoDict
@@ -124,7 +200,8 @@ def betano2():
     with open('betano.json', 'w', encoding='utf-8') as f:
         json.dump(betanoDict, f, ensure_ascii=False, indent=4)
 
-
+#bet22("https://22bet-bet.com/pt/line/football","liga")
+#bwin("https://sports.bwin.pt/pt/sports","liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()

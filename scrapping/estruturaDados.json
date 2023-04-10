@@ -1,8 +1,11 @@
 lista_jogos = {
-    site
-    idJogo
     liga
+    jogo
     data
-    hora
-    mercados
+    local
+    odd1
+    oddx
+    odd2
+    casa
+    id
 }

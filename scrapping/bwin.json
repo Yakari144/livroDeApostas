@@ -1,0 +1,114 @@
+{
+    "bwin": [
+        {
+            "liga": "liga",
+            "jogo": "Gil Vicente FC§GD Chaves",
+            "data": "A começar em 20 min.",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "0",
+            "odd1": "2.05",
+            "oddx": "3.30",
+            "odd2": "3.50"
+        },
+        {
+            "liga": "liga",
+            "jogo": "FC Famalicão§Vitória SC",
+            "data": "14/04/2023 20:15",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "1",
+            "odd1": "2.20",
+            "oddx": "3.20",
+            "odd2": "3.20"
+        },
+        {
+            "liga": "liga",
+            "jogo": "GD Estoril Praia§Portimonense SC",
+            "data": "15/04/2023 15:30",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "2",
+            "odd1": "2.45",
+            "oddx": "3.10",
+            "odd2": "2.95"
+        },
+        {
+            "liga": "liga",
+            "jogo": "CS Maritimo§FC Paços de Ferreira",
+            "data": "15/04/2023 15:30",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "3",
+            "odd1": "2.15",
+            "oddx": "3.20",
+            "odd2": "3.30"
+        },
+        {
+            "liga": "liga",
+            "jogo": "GD Chaves§SL Benfica",
+            "data": "15/04/2023 18:00",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "4",
+            "odd1": "10.00",
+            "oddx": "5.50",
+            "odd2": "1.26"
+        },
+        {
+            "liga": "liga",
+            "jogo": "FC Porto§CD Santa Clara",
+            "data": "15/04/2023 20:30",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "5",
+            "odd1": "1.11",
+            "oddx": "8.50",
+            "odd2": "21.00"
+        },
+        {
+            "liga": "liga",
+            "jogo": "Rio Ave FC§Casa Pia AC",
+            "data": "16/04/2023 15:30",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "6",
+            "odd1": "2.35",
+            "oddx": "2.95",
+            "odd2": "3.20"
+        },
+        {
+            "liga": "liga",
+            "jogo": "SC Braga§Gil Vicente FC",
+            "data": "16/04/2023 18:00",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "7",
+            "odd1": "1.26",
+            "oddx": "5.00",
+            "odd2": "8.50"
+        },
+        {
+            "liga": "liga",
+            "jogo": "Sporting CP§FC Arouca",
+            "data": "16/04/2023 20:30",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "8",
+            "odd1": "1.20",
+            "oddx": "5.75",
+            "odd2": "12.00"
+        },
+        {
+            "liga": "liga",
+            "jogo": "FC Vizela§Boavista FC",
+            "data": "17/04/2023 20:15",
+            "local": "Sem Informação",
+            "casa": "bwin",
+            "id": "9",
+            "odd1": "1.85",
+            "oddx": "3.50",
+            "odd2": "4.00"
+        }
+    ]
+}

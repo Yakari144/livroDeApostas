@@ -235,7 +235,7 @@ def bwin(url, liga):
             obj['odd2'] = apostas[2]
             jogo_existente = False
             for j in data['jogos']:
-                if j['jogo'] == obj['jogo']:
+                if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
                     j['odd1'] = j['odd1']
                     j['oddx'] = j['oddx']
                     j['odd2'] = j['odd2']

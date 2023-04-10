@@ -8,10 +8,10 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(options=options)
 
 # Acesse a URL desejada
-driver.get('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851')
+driver.get('https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga')
 
 # Aguarde até que o elemento "main-content" seja carregado
-WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "c-events__team")))
 
 # Obtenha o HTML da página da web
 html = driver.page_source

@@ -124,14 +124,14 @@ def betclic2():
 
 def bet22(url,liga):
     options = webdriver.ChromeOptions()
-    options.add_argument('headless')
+#    options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
     # Acesse a URL desejada
     driver.get(url)
 
     # Aguarde até que o elemento "main-content" seja carregado
-    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "events-links__info")))
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "c-events__team")))
 
     # Obtenha o HTML da página da web
     html = driver.page_source
@@ -143,27 +143,34 @@ def bet22(url,liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    jogos = soup.find_all("div", class_="events__item events__item_col")
+    fileW = open ("leagues.json", "w+")
+    
+    jogos = soup.find_all("div", class_="c-events__item")
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
-        obj['jogo'] = myStrip(j_soup.find("span",class_="events-links__info").text).strip()
-        dH = myStrip(j_soup.find("div",class_="events__cell events__cell_row events__cell_time").text).strip()
+        eqs = j_soup.find_all("div",class_="c-events__team")
+        if len(eqs) == 2:
+            obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
+        dH = myStrip(j_soup.find("div",class_="c-events__time").text).strip()
         obj['data'] = myStrip(dH.split(" ")[0]).strip()
         hora = myStrip(dH.split(" ")[1]).strip()
-        odds = j_soup.find_all("div",class_="coef coef__num")
+        odds = j_soup.find_all("div",class_="c-bets__bet")
+        i = 0
         for o in odds:
-            o_soup = BeautifulSoup(str(o), 'html.parser')
-            nome_aposta = myStrip(o_soup.find("div",class_="coef__name").text).strip()
+            if i > 3:
+                break
+            else:
+                i+=1
             #print(nome_aposta)
             odd = myStrip(o.find_all(string=True, recursive=False)[1].text).strip()
-
-            if "1Х2 -" in nome_aposta:
-                team = myStrip(nome_aposta.replace("1Х2 -","")).strip()
-                if team[0] == "V":
-                    team = team[1:]
-                aposta = "odd"+team
-                obj[aposta] = odd
+            if i == 1:
+                aposta = "odd1"
+            elif i == 2:
+                aposta = "oddx"
+            elif i == 3:
+                aposta = "odd2"
+            obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "22bet"
         
@@ -183,12 +190,11 @@ def bet22(url,liga):
             data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
-    with open('leagues.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(data, fileW, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
     options = webdriver.ChromeOptions()
-    options.add_argument('headless')
+#    options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
     # Acesse a URL desejada
@@ -233,6 +239,7 @@ def bwin(url, liga):
             obj['odd1'] = apostas[0]
             obj['oddx'] = apostas[1]
             obj['odd2'] = apostas[2]
+            
             jogo_existente = False
             for j in data['jogos']:
                 if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
@@ -247,7 +254,8 @@ def bwin(url, liga):
                 last_id += 1
                 obj['id'] = str(last_id)
                 data['jogos'].append(obj)
-        
+            
+            print("Novo jogo: ",obj['jogo'])
         else:
             print("Apostas insuficientes: ",apostas)
     
@@ -324,7 +332,7 @@ def betano2():
 
 #  ligas = dados["data"]["leaguesList"]
     ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",
-            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
+            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/#", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
         
     for l in ligas:
         nome = l.split("/")[6]
@@ -338,9 +346,10 @@ def betano2():
             nomeLiga = "Liga Espanhola"
         betano(l, nomeLiga)
 
-#bet22("https://22bet-bet.com/pt/line/football","liga")
-bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"liga")
+bet22("https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga","Liga Portuguesa")
+#bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()
 #casasDict["betano"] = betanoDict["betano"]
+

@@ -49,8 +49,9 @@ def betclic(url,liga):
     response = f.read()
     f.close()
     soup = BeautifulSoup(response, 'html.parser')
-    betclicDict = {}
-    betclicDict["betclic"]=[]
+    betclicDict = json.loads(open('leagues.json').read())
+    if "betclic" not in betclicDict:
+        betclicDict["betclic"]=[]
     
     jogos = soup.find_all("sports-events-event", class_="groupEvents_card")
     for j in jogos:
@@ -91,7 +92,7 @@ def betclic(url,liga):
     with open('betclic.json', 'w', encoding='utf-8') as f:
         json.dump(betclicDict, f, ensure_ascii=False, indent=4)
 
-betclic("asf","Liga Portuguesa")
+#betclic("asf","Liga Portuguesa")
 
 def betclic2():
     url = 'https://www.betclic.pt/futebol-s1'
@@ -111,14 +112,26 @@ def betclic2():
         betclic(href)
 
 def bet22(url,liga):
-    #global bet22Dict
-    #response = requests.get(url)
-    f = open("bet22.html", "r")
-    response = f.read()
-    f.close()
-    soup = BeautifulSoup(response, 'html.parser')
-    bet22Dict = {}
-    bet22Dict["bet22"]=[]
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    driver = webdriver.Chrome(options=options)
+
+    # Acesse a URL desejada
+    driver.get(url)
+
+    # Aguarde até que o elemento "main-content" seja carregado
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+
+    # Obtenha o HTML da página da web
+    html = driver.page_source
+    
+#    Feche o navegador da web
+    driver.quit()   
+    
+    soup = BeautifulSoup(html, 'html.parser')
+    bet22Dict = json.loads(open('leagues.json').read())
+    if "bet22" not in bet22Dict:
+        bet22Dict["bet22"]=[]
     
     jogos = soup.find_all("div", class_="events__item events__item_col")
     for j in jogos:
@@ -151,12 +164,24 @@ def bet22(url,liga):
         json.dump(bet22Dict, f, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
-    #response = requests.get(url)
-    f = open("bwin.html", "r")
-    response = f.read()
-    f.close()
-    soup = BeautifulSoup(response, 'html.parser')
-    bwinDict = json.loads(open("leagues.json").read())
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    driver = webdriver.Chrome(options=options)
+
+    # Acesse a URL desejada
+    driver.get(url)
+
+    # Aguarde até que o elemento "main-content" seja carregado
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+
+    # Obtenha o HTML da página da web
+    html = driver.page_source
+    
+#    Feche o navegador da web
+    driver.quit()   
+    
+    soup = BeautifulSoup(html, 'html.parser')
+    bwinDict = json.loads(open('leagues.json').read())
     if "bwin" not in bwinDict:
         bwinDict["bwin"]=[]
     
@@ -195,8 +220,9 @@ def bwin(url, liga):
 def betano(url, liga):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    betanoDict = {}
-    betanoDict["betano"]=[]
+    betanoDict = json.loads(open('leagues.json').read())
+    if "betano" not in betanoDict:
+        betanoDict["betano"]=[]
     dados = soup.find_all("body", class_="")[0]
     # get <script> </script> content
     dados = str(dados).split("<script>")[1].split("</script>")[0]
@@ -278,7 +304,7 @@ def betano2():
         betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
-#bwin("https://sports.bwin.pt/pt/sports","liga")
+#bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()

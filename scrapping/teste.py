@@ -49,9 +49,8 @@ def betclic(url,liga):
     response = f.read()
     f.close()
     soup = BeautifulSoup(response, 'html.parser')
-    betclicDict = json.loads(open('leagues.json').read())
-    if "betclic" not in betclicDict:
-        betclicDict["betclic"]=[]
+    with open('leagues.json', 'r') as f:
+        data = json.load(f)
     
     jogos = soup.find_all("sports-events-event", class_="groupEvents_card")
     for j in jogos:
@@ -85,12 +84,24 @@ def betclic(url,liga):
             obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "betclic"
-        obj['id'] = len(betclicDict["betclic"])
-        betclicDict["betclic"].append(obj)
+        jogo_existente = False
+        for j in data['jogos']:
+            if j['jogo'] == obj['jogo']:
+                j['odd1'] = j['odd1']
+                j['oddx'] = j['oddx']
+                j['odd2'] = j['odd2']
+                jogo_existente = True
+                break
+                
+        # se o jogo não existir, adiciona-o
+        if not jogo_existente:
+            last_id += 1
+            obj['id'] = str(last_id)
+            data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
-    with open('betclic.json', 'w', encoding='utf-8') as f:
-        json.dump(betclicDict, f, ensure_ascii=False, indent=4)
+    with open('leagues.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 #betclic("asf","Liga Portuguesa")
 
@@ -127,11 +138,10 @@ def bet22(url,liga):
     
 #    Feche o navegador da web
     driver.quit()   
+    with open('leagues.json', 'r') as f:
+        data = json.load(f)
     
     soup = BeautifulSoup(html, 'html.parser')
-    bet22Dict = json.loads(open('leagues.json').read())
-    if "bet22" not in bet22Dict:
-        bet22Dict["bet22"]=[]
     
     jogos = soup.find_all("div", class_="events__item events__item_col")
     for j in jogos:
@@ -156,12 +166,25 @@ def bet22(url,liga):
                 obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "22bet"
-        obj['id'] = len(bet22Dict["bet22"])
-        bet22Dict["bet22"].append(obj)
+        
+        jogo_existente = False
+        for j in data['jogos']:
+            if j['jogo'] == obj['jogo']:
+                j['odd1'] = j['odd1']
+                j['oddx'] = j['oddx']
+                j['odd2'] = j['odd2']
+                jogo_existente = True
+                break
+                
+        # se o jogo não existir, adiciona-o
+        if not jogo_existente:
+            last_id += 1
+            obj['id'] = str(last_id)
+            data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
-    with open('bet22.json', 'w', encoding='utf-8') as f:
-        json.dump(bet22Dict, f, ensure_ascii=False, indent=4)
+    with open('leagues.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
     options = webdriver.ChromeOptions()
@@ -179,11 +202,13 @@ def bwin(url, liga):
     
 #    Feche o navegador da web
     driver.quit()   
+
+    with open('leagues.json', 'r') as f:
+        data = json.load(f)
+
+    last_id = int(data['jogos'][-1]['id'])
     
     soup = BeautifulSoup(html, 'html.parser')
-    bwinDict = json.loads(open('leagues.json').read())
-    if "bwin" not in bwinDict:
-        bwinDict["bwin"]=[]
     
     jogos = soup.find_all("div", class_="grid-event-wrapper ng-star-inserted")
     for j in jogos:
@@ -209,20 +234,31 @@ def bwin(url, liga):
             obj['odd1'] = apostas[0]
             obj['oddx'] = apostas[1]
             obj['odd2'] = apostas[2]
-            bwinDict["bwin"].append(obj)
+            jogo_existente = False
+            for j in data['jogos']:
+                if j['jogo'] == obj['jogo']:
+                    j['odd1'] = j['odd1']
+                    j['oddx'] = j['oddx']
+                    j['odd2'] = j['odd2']
+                    jogo_existente = True
+                    break
+                
+            # se o jogo não existir, adiciona-o
+            if not jogo_existente:
+                last_id += 1
+                obj['id'] = str(last_id)
+                data['jogos'].append(obj)
+        
         else:
             print("Apostas insuficientes: ",apostas)
     
     # json dump to file with utf-8 encoding
     with open('leagues.json', 'w', encoding='utf-8') as f:
-        json.dump(bwinDict, f, ensure_ascii=False, indent=4)
+        json.dump(data, f, ensure_ascii=False, indent=4)
         
 def betano(url, liga):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    betanoDict = json.loads(open('leagues.json').read())
-    if "betano" not in betanoDict:
-        betanoDict["betano"]=[]
     dados = soup.find_all("body", class_="")[0]
     # get <script> </script> content
     dados = str(dados).split("<script>")[1].split("</script>")[0]

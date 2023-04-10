@@ -143,7 +143,9 @@ def bet22(url,liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    jogos = soup.find_all("div", class_="events__item events__item_col")
+    fileW = open ("leagues.json", "w+")
+    
+    jogos = soup.find_all("div", class_="grid-event-wrapper")
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
@@ -183,12 +185,11 @@ def bet22(url,liga):
             data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
-    with open('leagues.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(data, fileW, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
     options = webdriver.ChromeOptions()
-    options.add_argument('headless')
+#    options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
     # Acesse a URL desejada
@@ -228,7 +229,7 @@ def bwin(url, liga):
         
         obj['local'] = "Sem Informação"
         obj['casa'] = "bwin"
-        obj['id'] = str(len(bwinDict["bwin"]))
+        obj['id'] = str(last_id)
         
         if len(apostas) >= 3:
             obj['odd1'] = apostas[0]
@@ -248,7 +249,6 @@ def bwin(url, liga):
                 last_id += 1
                 obj['id'] = str(last_id)
                 data['jogos'].append(obj)
-        
         else:
             print("Apostas insuficientes: ",apostas)
     
@@ -340,7 +340,7 @@ def betano2():
         betano(l, nomeLiga)
 
 #bet22("https://22bet-bet.com/pt/line/football","liga")
-bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"liga")
+bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
 #betano2()

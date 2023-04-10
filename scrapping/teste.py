@@ -143,8 +143,6 @@ def bet22(url,liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    fileW = open ("leagues.json", "w+")
-    
     jogos = soup.find_all("div", class_="c-events__item")
     for j in jogos:
         obj = {'liga':liga}
@@ -152,7 +150,7 @@ def bet22(url,liga):
         eqs = j_soup.find_all("div",class_="c-events__team")
         if len(eqs) == 2:
             obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
-        dH = myStrip(j_soup.find("div",class_="c-events__time").text).strip()
+        dH = myStrip(j_soup.find("div",class_="c-events__time min").text).strip()
         obj['data'] = myStrip(dH.split(" ")[0]).strip()
         hora = myStrip(dH.split(" ")[1]).strip()
         odds = j_soup.find_all("div",class_="c-bets__bet")
@@ -190,7 +188,8 @@ def bet22(url,liga):
             data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
-    json.dump(data, fileW, ensure_ascii=False, indent=4)
+    with open('leagues.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 def bwin(url, liga):
     options = webdriver.ChromeOptions()

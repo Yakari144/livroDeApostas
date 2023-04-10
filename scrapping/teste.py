@@ -131,7 +131,7 @@ def bet22(url,liga):
     driver.get(url)
 
     # Aguarde até que o elemento "main-content" seja carregado
-    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "events-links__info")))
 
     # Obtenha o HTML da página da web
     html = driver.page_source

@@ -13,8 +13,8 @@ from selenium.webdriver.support import expected_conditions as EC
 def teste():
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
+    driver = webdriver.Chrome(options=chrome_options)
     try:
-        driver = webdriver.Chrome(options=chrome_options)
         driver.get("https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/")
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "event__name")))
         content = driver.page_source
@@ -156,8 +156,9 @@ def bwin(url, liga):
     response = f.read()
     f.close()
     soup = BeautifulSoup(response, 'html.parser')
-    bwinDict = {}
-    bwinDict["bwin"]=[]
+    bwinDict = json.loads(open("leagues.json").read())
+    if "bwin" not in bwinDict:
+        bwinDict["bwin"]=[]
     
     jogos = soup.find_all("div", class_="grid-event-wrapper ng-star-inserted")
     for j in jogos:
@@ -191,7 +192,6 @@ def bwin(url, liga):
     with open('bwin.json', 'w', encoding='utf-8') as f:
         json.dump(bwinDict, f, ensure_ascii=False, indent=4)
         
-
 def betano(url, liga):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -247,8 +247,7 @@ def betano(url, liga):
             else :
                 pass
     json.dump(data, fileW, indent=4)
-            
-            
+                     
 def betano2():
     url = "https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/"
     response = requests.get(url)
@@ -282,5 +281,5 @@ def betano2():
 #bwin("https://sports.bwin.pt/pt/sports","liga")
 #betclic2()
 #casasDict["betclic"] = betclicDict["betclic"]
-betano2()
+#betano2()
 #casasDict["betano"] = betanoDict["betano"]

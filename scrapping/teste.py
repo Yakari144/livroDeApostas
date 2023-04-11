@@ -367,16 +367,11 @@ def betano2():
             nomeLiga = "Liga Espanhola"
         betano(l, nomeLiga)
 
-#bet22("https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga","Liga Portuguesa")
-#bwin('https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851',"Liga Portuguesa")
-
-#betclic("https://www.betclic.pt/futebol-s1/portugal-primeira-liga-c32","Liga Portuguesa")
-#casasDict["betclic"] = betclicDict["betclic"]
-#betano2()
-
 if __name__ == "__main__":
-    betano2()
-# bwin2()
-# bet222()
-#betclic2()
+    while True:
+        betano2()
+        bwin2()
+        bet222()
+        betclic2()
+        time.sleep(20)
 

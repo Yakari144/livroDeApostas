@@ -75,9 +75,6 @@ var servidor = http.createServer((req, res) => {
                     var names = [];
                     names = names.concat(dicionario[home]);
                     names = names.concat(dicionario[away]);
-                    console.dir(dicionario[home])
-                    console.dir(names)
-                    console.log(home)
                     axios.get('http://localhost:3000/jogos/').then(dados => {
                         var jogos = [];
                         dados.data.forEach(j => {

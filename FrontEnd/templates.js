@@ -88,6 +88,20 @@ exports.index = function() {
 
 
 exports.liga = function(dados, liga) {
+    // dar load a um dicionario apartir do ficheiro dicionario.json
+    var dicionario = JSON.parse(fs.readFileSync('dicionario.json', 'utf-8'));
+    var names = [];
+    var jogos = [];
+    for(var i = 0; i < dados.length; i++) {
+        if(names.includes(dados[i]['jogo']))
+            continue;
+        else{
+            names.concat(dicionario[dados[i]['jogo']]);
+            jogos.push(dados[i]);
+        }
+    }
+    dados = jogos;
+
     var html = `
     <!DOCTYPE html>
     <html>

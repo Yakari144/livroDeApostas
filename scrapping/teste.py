@@ -61,7 +61,7 @@ def betclic(url,liga):
                 aposta = "oddx"
             else:
                 print("ERRO: " + nome_aposta+" - "+eq1+" - "+eq2)
-            obj[aposta] = odd
+            obj[aposta] = odd.replace(',','.')
         obj['local'] = "Sem Informação"
         obj['casa'] = "betclic"
         jogo_existente = False
@@ -141,7 +141,7 @@ def bet22(url,liga):
             else:
                 i+=1
             #print(nome_aposta)
-            odd = myStrip(o.text).strip()
+            odd = myStrip(o.text).strip().replace(',','.')
             if i == 1:
                 aposta = "odd1"
             elif i == 2:
@@ -227,7 +227,7 @@ def bwin(url, liga):
         apostas = []
         for o in odds:
             o_soup = BeautifulSoup(str(o), 'html.parser')
-            odd = myStrip(o_soup.find("div",class_="option-value").text).strip()
+            odd = myStrip(o_soup.find("div",class_="option-value").text).strip().replace(',','.')
             apostas.append(odd)
         
         obj['local'] = "Sem Informação"
@@ -306,9 +306,9 @@ def betano(url, liga):
                 for m in mercados:
                     if m["name"] == "Resultado Final":
                         selecoes = m["selections"]
-                        odd1 = str(selecoes[0]["price"])
-                        oddx = str(selecoes[1]["price"])
-                        odd2 = str(selecoes[2]["price"])
+                        odd1 = str(selecoes[0]["price"]).replace(',','.')
+                        oddx = str(selecoes[1]["price"]).replace(',','.')
+                        odd2 = str(selecoes[2]["price"]).replace(',','.')
                 
                 jogoInfo = {"liga":nomeLiga, "jogo":nomeJogo, "data": "Sem Informações", "local": "Sem Informações", "odd1":odd1, "oddx":oddx, "odd2":odd2, "casa": "Betano"}
                 

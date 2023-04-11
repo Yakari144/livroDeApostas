@@ -269,14 +269,14 @@ exports.jogo = function(dados) {
         <body>
             <header>
                 <h1>Jogo</h1>
-                <h2>${dados.data[0].jogo.split('§')[0]} vs ${dados.data[0].jogo.split('§')[1]}</h2>
+                <h2>${dados[0].jogo.split('§')[0]} vs ${dados[0].jogo.split('§')[1]}</h2>
             </header>
             <main>
             <div class="container">
-                <p><b>Equipa da Casa</b>: ${dados.data[0].jogo.split('§')[0]}</p>
-                <p><b>Equipa Fora</b>: ${dados.data[0].jogo.split('§')[1]}</p>
-                <p><b>Data</b>: ${dados.data[0].data}</p>
-                <p><b>Local</b>: ${dados.data[0].local}</p>
+                <p><b>Equipa da Casa</b>: ${dados[0].jogo.split('§')[0]}</p>
+                <p><b>Equipa Fora</b>: ${dados[0].jogo.split('§')[1]}</p>
+                <p><b>Data</b>: ${dados[0].data}</p>
+                <p><b>Local</b>: ${dados[0].local}</p>
             </div>
             <table>
                 <thead>
@@ -288,7 +288,7 @@ exports.jogo = function(dados) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${dados.data.map(item => `
+                    ${dados.map(item => `
                         <tr>
                             <td>${item.casa}</td>
                             <td>${item.odd1}</td>

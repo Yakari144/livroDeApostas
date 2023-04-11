@@ -23,6 +23,7 @@ casasDict = {}
 
 def betclic(url,liga):
     #global betclicDict
+    
     response = requests.get(url)
 
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -78,10 +79,11 @@ def betclic(url,liga):
             last_id += 1
             obj['id'] = str(last_id)
             data['jogos'].append(obj)
-    
+
     # json dump to file with utf-8 encoding
     with open('leagues.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+        
 
 def betclic2():
 #  ligas = dados["data"]["leaguesList"]
@@ -128,6 +130,7 @@ def bet22(url,liga):
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
         eqs = j_soup.find_all("span",class_="c-events__team")
+            
         if len(eqs) == 2:
             obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
         dH = myStrip(j_soup.find("div",class_="c-events__time min").text).strip()
@@ -219,6 +222,7 @@ def bwin(url, liga):
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
         eqs = j_soup.find_all("div",class_="participant-container")
+            
         if len(eqs) == 2:
             obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
 
@@ -284,6 +288,8 @@ def betano(url, liga):
     dados = json.loads(dados)
     eventos = dados["data"]["blocks"]
     
+    equipas = []
+    
     with open('leagues.json', 'r') as f:
         data = json.load(f)
 
@@ -301,6 +307,15 @@ def betano(url, liga):
         for j in lista_de_jogos:
             nomeLiga = liga
             if " - " in j["name"] and j["name"].split(" ")[0] != "Série":
+                
+                eq1 = j["name"].split(" - ")[0]
+                eq2 = j["name"].split(" - ")[1]
+        
+                if not eq1 in equipas:
+                    equipas.append(eq1)
+                if not eq2 in equipas:
+                    equipas.append(eq2)
+                
                 nomeJogo = j["name"].split(" - ")[0] + "§" + j["name"].split(" - ")[1]
                 mercados = j["markets"]
                 for m in mercados:
@@ -330,6 +345,11 @@ def betano(url, liga):
             else :
                 pass
     json.dump(data, fileW, indent=4)
+    
+    ficheiroNomes = open("equipas.txt", "a")
+    
+    for e in equipas:
+        ficheiroNomes.write(e+"\n")
 
 def betano2():
     ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",
@@ -356,7 +376,7 @@ def betano2():
 
 if __name__ == "__main__":
     betano2()
-    bwin2()
-    bet222()
-    betclic2()
+# bwin2()
+# bet222()
+#betclic2()
 

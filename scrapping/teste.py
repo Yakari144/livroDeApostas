@@ -10,26 +10,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def teste():
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(options=chrome_options)
-    try:
-        driver.get("https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/")
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "event__name")))
-        content = driver.page_source
-        print(content)
-        driver.quit()
-    except Exception as e:
-        print(e)
-        return
-
-#start timer
-start_time = time.time()
-#teste()
-#end timer
-print("--- %s seconds ---" % (time.time() - start_time))
-
 def normaliza(text):
     text = text.replace(" ","")
     text = text.lower()
@@ -87,9 +67,9 @@ def betclic(url,liga):
         jogo_existente = False
         for j in data['jogos']:
             if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
-                j['odd1'] = j['odd1']
-                j['oddx'] = j['oddx']
-                j['odd2'] = j['odd2']
+                j['odd1'] = obj['odd1']
+                j['oddx'] = obj['oddx']
+                j['odd2'] = obj['odd2']
                 jogo_existente = True
                 break
                 
@@ -147,7 +127,7 @@ def bet22(url,liga):
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')
-        eqs = j_soup.find_all("div",class_="c-events__team")
+        eqs = j_soup.find_all("span",class_="c-events__team")
         if len(eqs) == 2:
             obj['jogo'] = myStrip(eqs[0].text).strip() + "§" + myStrip(eqs[1].text).strip()
         dH = myStrip(j_soup.find("div",class_="c-events__time min").text).strip()
@@ -161,7 +141,7 @@ def bet22(url,liga):
             else:
                 i+=1
             #print(nome_aposta)
-            odd = myStrip(o.find_all(string=True, recursive=False)[1].text).strip()
+            odd = myStrip(o.text).strip()
             if i == 1:
                 aposta = "odd1"
             elif i == 2:
@@ -175,9 +155,9 @@ def bet22(url,liga):
         jogo_existente = False
         for j in data['jogos']:
             if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
-                j['odd1'] = j['odd1']
-                j['oddx'] = j['oddx']
-                j['odd2'] = j['odd2']
+                j['odd1'] = obj['odd1']
+                j['oddx'] = obj['oddx']
+                j['odd2'] = obj['odd2']
                 jogo_existente = True
                 break
                 
@@ -185,7 +165,8 @@ def bet22(url,liga):
         if not jogo_existente:
             last_id += 1
             obj['id'] = str(last_id)
-            data['jogos'].append(obj)
+            if "equipadacasa" not in normaliza(obj['jogo']):
+                data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding
     with open('leagues.json', 'w', encoding='utf-8') as f:
@@ -242,9 +223,9 @@ def bwin(url, liga):
             jogo_existente = False
             for j in data['jogos']:
                 if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
-                    j['odd1'] = j['odd1']
-                    j['oddx'] = j['oddx']
-                    j['odd2'] = j['odd2']
+                    j['odd1'] = obj['odd1']
+                    j['oddx'] = obj['oddx']
+                    j['odd2'] = obj['odd2']
                     jogo_existente = True
                     break
                 

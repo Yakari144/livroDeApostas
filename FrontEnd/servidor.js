@@ -28,6 +28,7 @@ var servidor = http.createServer((req, res) => {
                             res.write(templates.liga(dados, "Liga Portuguesa"));
                             res.end();
                         }).catch(erro => {
+                            console.log(erro)
                             res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                             res.write("Não foi possível obter os dados da Liga Portuguesa.");
                             res.end();
@@ -35,7 +36,6 @@ var servidor = http.createServer((req, res) => {
                 }
                 else if (req.url == '/ligainglesa') {
                         axios.get('http://localhost:3000/jogos?liga=Liga%20Inglesa').then(dados => {
-                            console.log(dados.data);
                             res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                             res.write(templates.liga(dados, "Liga Inglesa"));
                             res.end();

@@ -1,20 +1,62 @@
+import unidecode
+import re
+from fuzzywuzzy import fuzz
 import json
-import spacy
-from spacy.matcher import Matcher
 
+def normaliza(text):
+    text = text.replace(" ","")
+    text = text.lower()
+    text = unidecode.unidecode(text)
+    return text
 
-def julinho():
-    fileR = open ("leagues.json", "r")
-    data = json.load(fileR)
+def myStrip(text):
+    return re.sub(r'\s+', ' ', text).strip()
+
+diciYaka = json.loads(open('dicionario.json').read())    
+
+# casa§fora
+def yakari(j1,j2,s1,s2):
+    c1 = normaliza(j1.split('§')[0])
+    c2 = normaliza(j2.split('§')[0])
+    f1 = normaliza(j1.split('§')[1])
+    f2 = normaliza(j2.split('§')[1])
+    rc = fuzz.ratio(c1,c2)
+    rf = fuzz.ratio(f1,f2)
+    if rc < rf:
+        return rc
+    else:
+        return rf
     
-    fileW = open ("nomesEquipas.txt", "w+")
-    
-    for jogo in data['jogos']:
-        fileW.write(jogo['jogo'].split('§')[0] + '\n')
-        fileW.write(jogo['jogo'].split('§')[1] + '\n')
+def addDicionario(j1,j2):
+    global diciYaka
+    if j1 not in diciYaka:
+        diciYaka[j1] = [j1]
+    if j2 not in diciYaka:
+        diciYaka[j2] = [j2]
+    # merge 2 lists into 1 removing duplicates
 
+    diciYaka[j1] = list(set(diciYaka[j1] + diciYaka[j2]))
+    diciYaka[j2] = list(set(diciYaka[j1] + diciYaka[j2]))
 
-nlp = spacy.load("en_core_web_sm")
+def main():
+    global diciYaka
+    with open('leagues.json','r+') as f:
+        dic = json.load(f)
+    print(len(dic['jogos']))
+    for j1 in dic['jogos']:
+        for j2 in dic['jogos']:
+            if j1['jogo'] != j2['jogo']:
+                rat =  yakari(j1['jogo'],j2['jogo'],0,0)
+                if rat > 65:
+                    c1 = j1['jogo'].split('§')[0]
+                    c2 = j2['jogo'].split('§')[0]
+                    f1 = j1['jogo'].split('§')[1]
+                    f2 = j2['jogo'].split('§')[1]
+                    addDicionario(c1,c2)
+                    addDicionario(f1,f2)
+                    break
+    with open('dicionario.json', 'w', encoding='utf-8') as f:
+        json.dump(diciYaka, f, ensure_ascii=False, indent=4)
 
 # Definir lista de sinônimos para cada equipe
 team_synonyms = {
@@ -98,32 +140,8 @@ team_synonyms = {
 "wolves" : ["Wolverhampton Wanderers", "Wolverhampton", "Wolves"],
 }
 
-# Definir padrões de correspondência de nomes de equipes
-patterns = []
-for team_name, synonyms in team_synonyms.items():
-    pattern = [{"LOWER": synonym.lower()} for synonym in synonyms]
-    patterns.append({"label": "TEAM", "pattern": pattern})
+main()
 
-# Adicionar padrões de correspondência de nomes de equipes ao Matcher
-matcher = Matcher(nlp.vocab)
-for pattern in patterns:
-    matcher.add("TEAM", None, pattern)
+a = [1,2,3]
+b = [2,3,4]
 
-# Adicionar Matcher ao pipeline do spaCy
-nlp.add_pipe(matcher, after="ner")
-
-# Texto de exemplo contendo nomes de equipes
-text = "O Benfica joga hoje contra o FC Porto"
-
-# Processar texto com pipeline do spaCy
-doc = nlp(text)
-
-# Substituir nomes de equipes pelos seus nomes comuns
-for ent in doc.ents:
-    if ent.label_ == "TEAM":
-        team_name = ent.text
-        for common_name, synonyms in team_synonyms.items():
-            if team_name in synonyms:
-                text = text.replace(team_name, common_name)
-
-print(text)

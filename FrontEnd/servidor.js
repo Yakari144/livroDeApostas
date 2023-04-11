@@ -7,6 +7,8 @@ var querystring = require('querystring');
 var { parse } = require('querystring');
 var static = require('./static');
 
+// dar load a um dicionario apartir do ficheiro dicionario.json
+var dicionario = JSON.parse(fs.readFileSync('dicionario.json', 'utf-8'));
 
 var servidor = http.createServer((req, res) => {
     if(static.staticResource(req)){
@@ -66,13 +68,32 @@ var servidor = http.createServer((req, res) => {
                         })
                 }
                 else if (req.url.startsWith("/jogo/")) {
-                    axios.get('http://localhost:3000/jogos?jogo=' + req.url.split('/')[2]).then(dados => {
+                    game = req.url.split('/')[2];
+                    game = decodeURI(game)
+                    var home = game.split('§')[0];
+                    var away = game.split('§')[1];
+                    var names = [];
+                    names = names.concat(dicionario[home]);
+                    names = names.concat(dicionario[away]);
+                    console.dir(dicionario[home])
+                    console.dir(names)
+                    console.log(home)
+                    axios.get('http://localhost:3000/jogos/').then(dados => {
+                        var jogos = [];
+                        dados.data.forEach(j => {
+                            var casa = j['jogo'].split('§')[0];
+                            var fora = j['jogo'].split('§')[1];
+                            if (names.includes(casa) && names.includes(fora)) {
+                                jogos.push(j);
+                            }
+                        })
                         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-                        res.write(templates.jogo(dados));
+                        res.write(templates.jogo(jogos));
                         res.end();
                     }).catch(erro => {
                         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                         res.write("Não foi possível obter os dados do jogo.");
+                        console.log(erro);
                         res.end();
                     })
     }

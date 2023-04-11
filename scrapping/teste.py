@@ -10,7 +10,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 def normaliza(text):
     text = text.replace(" ","")
     text = text.lower()
@@ -69,9 +68,9 @@ def betclic(url,liga):
         jogo_existente = False
         for j in data['jogos']:
             if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
-                j['odd1'] = j['odd1']
-                j['oddx'] = j['oddx']
-                j['odd2'] = j['odd2']
+                j['odd1'] = obj['odd1']
+                j['oddx'] = obj['oddx']
+                j['odd2'] = obj['odd2']
                 jogo_existente = True
                 break
                 
@@ -152,6 +151,8 @@ def bet22(url,liga):
                 aposta = "oddx"
             elif i == 3:
                 aposta = "odd2"
+            else:
+                break
             obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "22bet"
@@ -244,9 +245,9 @@ def bwin(url, liga):
             jogo_existente = False
             for j in data['jogos']:
                 if j['jogo'] == obj['jogo'] and j['casa'] == obj['casa']:
-                    j['odd1'] = j['odd1']
-                    j['oddx'] = j['oddx']
-                    j['odd2'] = j['odd2']
+                    j['odd1'] = obj['odd1']
+                    j['oddx'] = obj['oddx']
+                    j['odd2'] = obj['odd2']
                     jogo_existente = True
                     break
                 

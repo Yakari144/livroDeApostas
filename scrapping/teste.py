@@ -148,6 +148,8 @@ def bet22(url,liga):
                 aposta = "oddx"
             elif i == 3:
                 aposta = "odd2"
+            else:
+                break
             obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "22bet"

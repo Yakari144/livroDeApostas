@@ -143,7 +143,7 @@ def bet22(url,liga):
     
     soup = BeautifulSoup(html, 'html.parser')
     
-    jogos = soup.find_all("div", class_="c-events__item")
+    jogos = soup.find_all("div", class_="c-events__item c-events__item_col")
     for j in jogos:
         obj = {'liga':liga}
         j_soup = BeautifulSoup(str(j), 'html.parser')

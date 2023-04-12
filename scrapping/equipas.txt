@@ -78,8 +78,6 @@ Bétis
 Espanyol
 Valência
 Sevilha
-<<<<<<< HEAD
-=======
 FC Famalicão
 Vitória S.C.
 Estoril
@@ -160,4 +158,3 @@ Bétis
 Espanyol
 Valência
 Sevilha
->>>>>>> 07f5d40e792f07ba41bf82fce7369ff243028b79

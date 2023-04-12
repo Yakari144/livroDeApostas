@@ -22,8 +22,8 @@ def myStrip(text):
 casasDict = {}
 
 def betclic(url,liga):
-    #global betclicDict
-    
+
+    # exemplo url - "https://www.betclic.pt/futebol-s1/portugal-primeira-liga-c32"
     response = requests.get(url)
 
     soup = BeautifulSoup(response.text, 'html.parser')

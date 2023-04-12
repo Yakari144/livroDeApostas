@@ -288,7 +288,6 @@ def betano(url, liga):
     dados = json.loads(dados)
     eventos = dados["data"]["blocks"]
     
-    equipas = []
     
     with open('leagues.json', 'r') as f:
         data = json.load(f)
@@ -306,16 +305,7 @@ def betano(url, liga):
         lista_de_jogos = e["events"]
         for j in lista_de_jogos:
             nomeLiga = liga
-            if " - " in j["name"] and j["name"].split(" ")[0] != "Série":
-                
-                eq1 = j["name"].split(" - ")[0]
-                eq2 = j["name"].split(" - ")[1]
-        
-                if not eq1 in equipas:
-                    equipas.append(eq1)
-                if not eq2 in equipas:
-                    equipas.append(eq2)
-                
+            if " - " in j["name"] and j["name"].split(" ")[0] != "Série" and "Primeira Liga" not in j["name"]:
                 nomeJogo = j["name"].split(" - ")[0] + "§" + j["name"].split(" - ")[1]
                 mercados = j["markets"]
                 for m in mercados:
@@ -345,11 +335,6 @@ def betano(url, liga):
             else :
                 pass
     json.dump(data, fileW, indent=4)
-    
-    ficheiroNomes = open("equipas.txt", "a")
-    
-    for e in equipas:
-        ficheiroNomes.write(e+"\n")
 
 def betano2():
     ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",

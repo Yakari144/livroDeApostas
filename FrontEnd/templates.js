@@ -1,3 +1,6 @@
+
+var fs = require('fs');
+
 exports.index = function() {
     var html = `
     <!DOCTYPE html>
@@ -92,15 +95,22 @@ exports.liga = function(dados, liga) {
     var dicionario = JSON.parse(fs.readFileSync('dicionario.json', 'utf-8'));
     var names = [];
     var jogos = [];
-    for(var i = 0; i < dados.length; i++) {
-        if(names.includes(dados[i]['jogo']))
+    var N = 0;
+    if (dados.data.length){
+        N = dados.data.length;
+    }
+    for(var i = 0; i < N; i++) {
+        fora = dicionario[dados.data[i].jogo.split('§')[1]][0];
+        casa = dicionario[dados.data[i].jogo.split('§')[0]][0];
+        j = casa+"§"+fora;
+        if(names.includes(j))
             continue;
         else{
-            names.concat(dicionario[dados[i]['jogo']]);
-            jogos.push(dados[i]);
+            names.push(j);
+            jogos.push(dados.data[i]);
         }
     }
-    dados = jogos;
+    dados.data = jogos;
 
     var html = `
     <!DOCTYPE html>

@@ -50,7 +50,6 @@ def betclic(url,liga):
         for o in odds:
             o_soup = BeautifulSoup(str(o), 'html.parser')
             nome_aposta = normaliza(myStrip(o_soup.find("span",class_="oddMatchName").text).strip())
-            #print(nome_aposta)
             odd = myStrip(o_soup.find("span",class_="oddValue").text).strip()
             aposta=""
 
@@ -84,7 +83,6 @@ def betclic(url,liga):
     with open('leagues.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
         
-
 def betclic2():
 #  ligas = dados["data"]["leaguesList"]
     ligas = ["https://www.betclic.pt/futebol-s1/portugal-primeira-liga-c32", "https://www.betclic.pt/futebol-s1/inglaterra-premier-league-c3",
@@ -115,7 +113,7 @@ def bet22(url,liga):
     # Obtenha o HTML da página da web
     html = driver.page_source
     
-#    Feche o navegador da web
+    # Feche o navegador da web
     driver.quit()   
     
     with open('leagues.json', 'r') as f:
@@ -140,10 +138,9 @@ def bet22(url,liga):
         i = 0
         for o in odds:
             if i > 3:
-                break
+                continue
             else:
                 i+=1
-            #print(nome_aposta)
             odd = myStrip(o.text).strip().replace(',','.')
             if i == 1:
                 aposta = "odd1"
@@ -152,7 +149,7 @@ def bet22(url,liga):
             elif i == 3:
                 aposta = "odd2"
             else:
-                break
+                continue
             obj[aposta] = odd
         obj['local'] = "Sem Informação"
         obj['casa'] = "22bet"
@@ -164,13 +161,13 @@ def bet22(url,liga):
                 j['oddx'] = obj['oddx']
                 j['odd2'] = obj['odd2']
                 jogo_existente = True
-                break
+                continue
                 
         # se o jogo não existir, adiciona-o
         if not jogo_existente:
             last_id += 1
             obj['id'] = str(last_id)
-            if "equipadacasa" not in normaliza(obj['jogo']) and "apostasespeciais" not in normaliza(obj['jogo']):
+            if "equipadacasa" not in normaliza(obj['jogo']) and "especiais" not in normaliza(obj['jogo']):
                 data['jogos'].append(obj)
     
     # json dump to file with utf-8 encoding

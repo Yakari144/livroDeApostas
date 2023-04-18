@@ -4,24 +4,11 @@ Livro de Odds é uma ferramenta que permite comparar as diferentes odds apresent
 
 ## Dependências
 
--> Selenium
+- Requests;
+- Selenium;
+- Bs4 – Beautiful Soup;
+- Json;
+- re;
+- Unidecode;
+- Fuzzywuzzy;
 
--> re
-
--> requests
-
--> json
-
--> time
-
--> BeautifulSoup
-
--> unidecode
-
-
-## Contributing
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)

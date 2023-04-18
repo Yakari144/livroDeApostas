@@ -23,8 +23,9 @@ casasDict = {}
 
 def betclic(url,liga):
     #global betclicDict
-    
+    print("BETCLIC > A obter: " + liga)
     response = requests.get(url)
+    print("BETCLIC > " + liga+ " obtida com sucesso!")
 
     soup = BeautifulSoup(response.text, 'html.parser')
     
@@ -85,8 +86,11 @@ def betclic(url,liga):
         
 def betclic2():
 #  ligas = dados["data"]["leaguesList"]
-    ligas = ["https://www.betclic.pt/futebol-s1/portugal-primeira-liga-c32", "https://www.betclic.pt/futebol-s1/inglaterra-premier-league-c3",
-            "https://www.betclic.pt/futebol-s1/italia-serie-a-c6", "https://www.betclic.pt/futebol-s1/espanha-la-liga-c7"]
+    ligas = ["https://www.betclic.pt/futebol-s1/portugal-primeira-liga-c32", 
+             "https://www.betclic.pt/futebol-s1/inglaterra-premier-league-c3",
+             "https://www.betclic.pt/futebol-s1/italia-serie-a-c6", 
+             "https://www.betclic.pt/futebol-s1/espanha-la-liga-c7",
+             "https://www.betclic.pt/futebol-s1/liga-dos-campeoes-c8"]
         
     for l in ligas:
         if "primeira-liga" in l:
@@ -97,6 +101,8 @@ def betclic2():
             nomeLiga = "Liga Italiana"
         elif "la-liga" in l:
             nomeLiga = "Liga Espanhola"
+        elif "liga-dos-campeoes" in l:
+            nomeLiga = "Champions League"
         betclic(l, nomeLiga)
     
 def bet22(url,liga):
@@ -104,8 +110,10 @@ def bet22(url,liga):
     options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
+    print("22BET > A obter: " + liga)
     # Acesse a URL desejada
     driver.get(url)
+    print("22BET > " + liga+ " obtida com sucesso!")
 
     # Aguarde até que o elemento "main-content" seja carregado
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "c-events__team")))
@@ -176,8 +184,11 @@ def bet22(url,liga):
 
 def bet222():
 #  ligas = dados["data"]["leaguesList"]
-    ligas = ["https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga", "https://22bet-bet.com/pt/line/football/88637-england-premier-league",
-            "https://22bet-bet.com/pt/line/football/110163-italy-serie-a", "https://22bet-bet.com/pt/line/football/127733-spain-la-liga"]
+    ligas = ["https://22bet-bet.com/pt/line/football/118663-portugal-primeira-liga",
+             "https://22bet-bet.com/pt/line/football/88637-england-premier-league",
+             "https://22bet-bet.com/pt/line/football/110163-italy-serie-a",
+             "https://22bet-bet.com/pt/line/football/127733-spain-la-liga",
+             "https://22bet-bet.com/pt/line/football/118587-uefa-champions-league"]
         
     for l in ligas:
         if "primeira-liga" in l:
@@ -188,6 +199,8 @@ def bet222():
             nomeLiga = "Liga Italiana"
         elif "la-liga" in l:
             nomeLiga = "Liga Espanhola"
+        elif "uefa-champions-league" in l:
+            nomeLiga = "Champions League"
         bet22(l, nomeLiga)
         
 def bwin(url, liga):
@@ -195,8 +208,10 @@ def bwin(url, liga):
     options.add_argument('headless')
     driver = webdriver.Chrome(options=options)
 
+    print("BWIN > A obter: " + liga)
     # Acesse a URL desejada
     driver.get(url)
+    print("BWIN > " + liga+ " obtida com sucesso!")
 
     # Aguarde até que o elemento "main-content" seja carregado
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "participant")))
@@ -259,8 +274,11 @@ def bwin(url, liga):
         json.dump(data, f, ensure_ascii=False, indent=4)
         
 def bwin2():
-    ligas = ["https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851", "https://sports.bwin.pt/pt/sports/futebol-4/apostar/inglaterra-14/premier-league-102841",
-            "https://sports.bwin.pt/pt/sports/futebol-4/apostar/espanha-28/la-liga-102829", "https://sports.bwin.pt/pt/sports/futebol-4/apostar/it%C3%A1lia-20/serie-a-102846"]
+    ligas = ["https://sports.bwin.pt/pt/sports/futebol-4/apostar/portugal-37/liga-portugal-bwin-102851", 
+             "https://sports.bwin.pt/pt/sports/futebol-4/apostar/inglaterra-14/premier-league-102841",             
+             "https://sports.bwin.pt/pt/sports/futebol-4/apostar/espanha-28/la-liga-102829", 
+             "https://sports.bwin.pt/pt/sports/futebol-4/apostar/it%C3%A1lia-20/serie-a-102846",
+             "https://sports.bwin.pt/pt/sports/futebol-4/apostar/europa-7/liga-dos-campeões-0:3"]
         
     for l in ligas:
         nome = l.split("/")[8]
@@ -272,10 +290,14 @@ def bwin2():
             nomeLiga = "Liga Italiana"
         elif nome == "la-liga-102829":
             nomeLiga = "Liga Espanhola"
+        elif "liga-dos-campeões" in nome:
+            nomeLiga = "Champions League"
         bwin(l, nomeLiga)
 
 def betano(url, liga):
+    print("BETANO > A obter: " + liga)
     response = requests.get(url)
+    print("BETANO > " + liga+ " obtida com sucesso!")
     soup = BeautifulSoup(response.text, 'html.parser')
     dados = soup.find_all("body", class_="")[0]
     # get <script> </script> content
@@ -331,29 +353,56 @@ def betano(url, liga):
                 
             else :
                 pass
-    json.dump(data, fileW, indent=4)
+    # json dump to file with utf-8 encoding
+    with open('leagues.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 def betano2():
     ligas = ["https://www.betano.pt/sport/futebol/portugal/primeira-liga/17083/", "https://www.betano.pt/sport/futebol/inglaterra/premier-league/1/",
-            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/#", "https://www.betano.pt/sport/futebol/espanha/laliga/5/"]
+            "https://www.betano.pt/sport/futebol/italia/serie-a/1635/#", "https://www.betano.pt/sport/futebol/espanha/laliga/5/","https://www.betano.pt/sport/futebol/liga-dos-campeoes/jogos/182748/"]
         
     for l in ligas:
-        nome = l.split("/")[6]
-        if nome == "primeira-liga":
+        if "primeira-liga" in l:
             nomeLiga = "Liga Portuguesa"
-        elif nome == "premier-league":
+        elif "premier-league" in l:
             nomeLiga = "Liga Inglesa"
-        elif nome == "serie-a":
+        elif "serie-a" in l:
             nomeLiga = "Liga Italiana"
-        elif nome == "laliga":
+        elif "laliga" in l:
             nomeLiga = "Liga Espanhola"
+        elif "liga-dos-campeoes" in l:
+            nomeLiga = "Champions League"
         betano(l, nomeLiga)
 
+def getbet7url():
+    response = requests.get("https://linktr.ee/muchaaa")
+    soup = BeautifulSoup(response.text, 'html.parser')
+    dados = soup.find_all("a", href=True)
+    url=""
+    for a in dados:
+        texto = normaliza(a.text)
+        if "bet7" in texto:
+            url=a['href']
+    return url
+
+def bet7():
+    url = "https://www.betseven9.com/"
+    urlpt="https://www.betseven9.com/p#/pregame/1/leagues/238"
+    # Se o mucha atualizar o link tree a funcao funciona
+    #url = getbet7url()
+
+def dicionario():
+    # executa python3 dictionario.py
+    os.system("python3 dictionario.py")
+
 if __name__ == "__main__":
+    #bet7()
     while True:
         betano2()
+        betclic2()
         bwin2()
         bet222()
-        betclic2()
+        dicionario()
         time.sleep(20)
+        print("Repetindo...")
 

@@ -1,0 +1,509 @@
+{
+    "Casa Pia AC": [
+        "Casa Pia",
+        "Casa Pia AC"
+    ],
+    "Casa Pia": [
+        "Casa Pia",
+        "Casa Pia AC"
+    ],
+    "SC Braga": [
+        "SC Braga",
+        "Sp. Braga"
+    ],
+    "Sp. Braga": [
+        "SC Braga",
+        "Sp. Braga"
+    ],
+    "FC Famalicão": [
+        "FC Famalicão",
+        "Famalicão"
+    ],
+    "Famalicão": [
+        "FC Famalicão",
+        "Famalicão"
+    ],
+    "CS Marítimo": [
+        "CS Maritimo",
+        "CS Marítimo",
+        "Marítimo"
+    ],
+    "Marítimo": [
+        "CS Maritimo",
+        "CS Marítimo",
+        "Marítimo"
+    ],
+    "Boavista FC": [
+        "Boavista",
+        "Boavista FC"
+    ],
+    "Boavista": [
+        "Boavista",
+        "Boavista FC"
+    ],
+    "Rio Ave FC": [
+        "Rio Ave",
+        "Rio Ave FC"
+    ],
+    "Rio Ave": [
+        "Rio Ave",
+        "Rio Ave FC"
+    ],
+    "Paços de Ferreira": [
+        "FC Paços de Ferreira",
+        "Paços de Ferreira"
+    ],
+    "FC Porto": [
+        "FC Porto"
+    ],
+    "Portimonense": [
+        "Portimonense",
+        "Portimonense SC"
+    ],
+    "Gil Vicente FC": [
+        "Gil Vicente",
+        "Gil Vicente FC"
+    ],
+    "Gil Vicente": [
+        "Gil Vicente",
+        "Gil Vicente FC"
+    ],
+    "SL Benfica": [
+        "Benfica",
+        "SL Benfica"
+    ],
+    "Benfica": [
+        "Benfica",
+        "SL Benfica"
+    ],
+    "Estoril": [
+        "Estoril",
+        "GD Estoril Praia"
+    ],
+    "Santa Clara": [
+        "CD Santa Clara",
+        "Santa Clara"
+    ],
+    "GD Chaves": [
+        "Chaves",
+        "GD Chaves"
+    ],
+    "Chaves": [
+        "Chaves",
+        "GD Chaves"
+    ],
+    "Arouca": [
+        "Arouca",
+        "FC Arouca"
+    ],
+    "FC Vizela": [
+        "FC Vizela",
+        "Vizela"
+    ],
+    "Vizela": [
+        "FC Vizela",
+        "Vizela"
+    ],
+    "Vitória S.C.": [
+        "Vitória S.C.",
+        "Vitória SC"
+    ],
+    "Vitória SC": [
+        "Vitória S.C.",
+        "Vitória SC"
+    ],
+    "Sporting CP": [
+        "Sporting",
+        "Sporting CP"
+    ],
+    "Sporting": [
+        "Sporting",
+        "Sporting CP"
+    ],
+    "Arsenal": [
+        "Arsenal"
+    ],
+    "Southampton": [
+        "Southampton"
+    ],
+    "Fulham": [
+        "Fulham"
+    ],
+    "Leeds United": [
+        "Leeds",
+        "Leeds United"
+    ],
+    "Leeds": [
+        "Leeds",
+        "Leeds United"
+    ],
+    "Liverpool": [
+        "Liverpool"
+    ],
+    "Nottingham Forest": [
+        "Nottingham F.",
+        "Nottingham Forest"
+    ],
+    "Brentford": [
+        "Brentford"
+    ],
+    "Aston Villa": [
+        "Aston Villa"
+    ],
+    "Leicester": [
+        "Leicester"
+    ],
+    "Wolverhampton": [
+        "Wolverhampton",
+        "Wolves"
+    ],
+    "Wolves": [
+        "Wolverhampton",
+        "Wolves"
+    ],
+    "Crystal Palace": [
+        "Crystal Palace"
+    ],
+    "Everton": [
+        "Everton"
+    ],
+    "Bournemouth": [
+        "Bournemouth"
+    ],
+    "West Ham United": [
+        "West Ham",
+        "West Ham United"
+    ],
+    "West Ham": [
+        "West Ham",
+        "West Ham United"
+    ],
+    "Newcastle United": [
+        "Newcastle",
+        "Newcastle United"
+    ],
+    "Newcastle": [
+        "Newcastle",
+        "Newcastle United"
+    ],
+    "Tottenham": [
+        "Tottenham"
+    ],
+    "Brighton": [
+        "Brighton"
+    ],
+    "Chelsea": [
+        "Chelsea"
+    ],
+    "Manchester City": [
+        "Manchester City"
+    ],
+    "Manchester United": [
+        "Manchester United",
+        "Manchester Utd"
+    ],
+    "Manchester Utd": [
+        "Manchester United",
+        "Manchester Utd"
+    ],
+    "Hellas Verona": [
+        "Hellas Verona",
+        "Verona"
+    ],
+    "Verona": [
+        "Hellas Verona",
+        "Verona"
+    ],
+    "Bolonha": [
+        "Bolonha"
+    ],
+    "Salernitana": [
+        "Salernitana",
+        "US Salernitana"
+    ],
+    "Sassuolo": [
+        "Sassuolo"
+    ],
+    "Lázio": [
+        "Lazio",
+        "Lázio"
+    ],
+    "Lazio": [
+        "Lazio",
+        "Lázio"
+    ],
+    "Torino": [
+        "Torino"
+    ],
+    "Sampdoria": [
+        "Sampdoria"
+    ],
+    "Spezia": [
+        "Spezia"
+    ],
+    "Empoli": [
+        "Empoli"
+    ],
+    "Inter de Milão": [
+        "Inter",
+        "Inter Milão",
+        "Inter de Milão"
+    ],
+    "Inter": [
+        "Inter",
+        "Inter Milão",
+        "Inter de Milão"
+    ],
+    "AC Monza": [
+        "AC Monza",
+        "Monza"
+    ],
+    "Monza": [
+        "AC Monza",
+        "Monza"
+    ],
+    "Fiorentina": [
+        "Fiorentina"
+    ],
+    "Udinese": [
+        "Udinese"
+    ],
+    "US Cremonese": [
+        "Cremonese",
+        "US Cremonese"
+    ],
+    "Cremonese": [
+        "Cremonese",
+        "US Cremonese"
+    ],
+    "AC Milão": [
+        "AC Milan",
+        "AC Milão",
+        "Milan"
+    ],
+    "Milan": [
+        "AC Milan",
+        "AC Milão",
+        "Milan"
+    ],
+    "US Lecce": [
+        "Lecce",
+        "US Lecce"
+    ],
+    "Lecce": [
+        "Lecce",
+        "US Lecce"
+    ],
+    "Juventus FC": [
+        "Juventus",
+        "Juventus FC"
+    ],
+    "Juventus": [
+        "Juventus",
+        "Juventus FC"
+    ],
+    "Nápoles": [
+        "Nápoles"
+    ],
+    "Atalanta": [
+        "Atalanta"
+    ],
+    "AS Roma": [
+        "AS Roma",
+        "Roma"
+    ],
+    "Roma": [
+        "AS Roma",
+        "Roma"
+    ],
+    "Espanyol": [
+        "Espanhol",
+        "Espanyol"
+    ],
+    "Cádiz CF": [
+        "Cadiz CF",
+        "Cádiz",
+        "Cádiz CF"
+    ],
+    "Cádiz": [
+        "Cadiz CF",
+        "Cádiz",
+        "Cádiz CF"
+    ],
+    "Osasuna": [
+        "Osasuna"
+    ],
+    "Bétis": [
+        "Bétis",
+        "Real Bétis"
+    ],
+    "UD Almería": [
+        "Almería",
+        "UD Almería"
+    ],
+    "Almería": [
+        "Almería",
+        "UD Almería"
+    ],
+    "Athletic Bilbao": [
+        "Athletic Bilbao",
+        "Athletic Bilbau",
+        "Atlético de Bilbao"
+    ],
+    "Athletic Bilbau": [
+        "Athletic Bilbao",
+        "Athletic Bilbau",
+        "Atlético de Bilbao"
+    ],
+    "Real Valladolid": [
+        "Real Valladolid"
+    ],
+    "Girona FC": [
+        "Girona",
+        "Girona FC"
+    ],
+    "Girona": [
+        "Girona",
+        "Girona FC"
+    ],
+    "Real Sociedad": [
+        "Real Sociedad"
+    ],
+    "Rayo Vallecano": [
+        "Rayo Vallecano"
+    ],
+    "Real Madrid": [
+        "Real Madrid"
+    ],
+    "Celta de Vigo": [
+        "Celta Vigo",
+        "Celta de Vigo"
+    ],
+    "Celta Vigo": [
+        "Celta Vigo",
+        "Celta de Vigo"
+    ],
+    "Elche": [
+        "Elche",
+        "Elche CF"
+    ],
+    "Valência": [
+        "Valência",
+        "Valência CF"
+    ],
+    "Barcelona": [
+        "Barcelona",
+        "FC Barcelona"
+    ],
+    "Atlético de Madrid": [
+        "Atlético Madrid",
+        "Atlético de Madrid"
+    ],
+    "Atlético Madrid": [
+        "Atlético Madrid",
+        "Atlético de Madrid"
+    ],
+    "Maiorca": [
+        "Maiorca"
+    ],
+    "Getafe": [
+        "Getafe",
+        "Getafe CF"
+    ],
+    "Sevilha": [
+        "Sevilha",
+        "Sevilha FC"
+    ],
+    "Villarreal": [
+        "Villarreal",
+        "Villarreal CF"
+    ],
+    "CS Maritimo": [
+        "CS Maritimo",
+        "CS Marítimo",
+        "Marítimo"
+    ],
+    "FC Paços de Ferreira": [
+        "FC Paços de Ferreira",
+        "Paços de Ferreira"
+    ],
+    "Portimonense SC": [
+        "Portimonense",
+        "Portimonense SC"
+    ],
+    "GD Estoril Praia": [
+        "Estoril",
+        "GD Estoril Praia"
+    ],
+    "CD Santa Clara": [
+        "CD Santa Clara",
+        "Santa Clara"
+    ],
+    "FC Arouca": [
+        "Arouca",
+        "FC Arouca"
+    ],
+    "Nottingham F.": [
+        "Nottingham F.",
+        "Nottingham Forest"
+    ],
+    "Espanhol": [
+        "Espanhol",
+        "Espanyol"
+    ],
+    "Cadiz CF": [
+        "Cadiz CF",
+        "Cádiz",
+        "Cádiz CF"
+    ],
+    "Real Bétis": [
+        "Bétis",
+        "Real Bétis"
+    ],
+    "Atlético de Bilbao": [
+        "Athletic Bilbao",
+        "Athletic Bilbau",
+        "Atlético de Bilbao"
+    ],
+    "Elche CF": [
+        "Elche",
+        "Elche CF"
+    ],
+    "Valência CF": [
+        "Valência",
+        "Valência CF"
+    ],
+    "FC Barcelona": [
+        "Barcelona",
+        "FC Barcelona"
+    ],
+    "Getafe CF": [
+        "Getafe",
+        "Getafe CF"
+    ],
+    "Sevilha FC": [
+        "Sevilha",
+        "Sevilha FC"
+    ],
+    "Villarreal CF": [
+        "Villarreal",
+        "Villarreal CF"
+    ],
+    "Bayern Munique": [
+        "Bayern Munique"
+    ],
+    "US Salernitana": [
+        "Salernitana",
+        "US Salernitana"
+    ],
+    "Inter Milão": [
+        "Inter",
+        "Inter Milão",
+        "Inter de Milão"
+    ],
+    "AC Milan": [
+        "AC Milan",
+        "AC Milão",
+        "Milan"
+    ]
+}

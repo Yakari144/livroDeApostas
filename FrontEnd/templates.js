@@ -81,6 +81,7 @@ exports.index = function() {
 		<a href="/ligainglesa">Liga Inglesa</a>
 		<a href="/ligaitaliana">Liga Italiana</a>
 		<a href="/ligaespanhola">Liga Espanhola</a>
+		<a href="/championsleague">Champions League</a>
 	</div>
 </body>
 </html>
@@ -92,7 +93,7 @@ exports.index = function() {
 
 exports.liga = function(dados, liga) {
     // dar load a um dicionario apartir do ficheiro dicionario.json
-    var dicionario = JSON.parse(fs.readFileSync('dicionario.json', 'utf-8'));
+    var dicionario = JSON.parse(fs.readFileSync('../scrapping/dicionario.json', 'utf-8'));
     var names = [];
     var jogos = [];
     var N = 0;
@@ -100,8 +101,12 @@ exports.liga = function(dados, liga) {
         N = dados.data.length;
     }
     for(var i = 0; i < N; i++) {
-        fora = dicionario[dados.data[i].jogo.split('§')[1]][0];
-        casa = dicionario[dados.data[i].jogo.split('§')[0]][0];
+        if(dados.data[i].jogo.split('§')[1] in dicionario){
+            fora = dicionario[dados.data[i].jogo.split('§')[1]][0];
+        }else continue;
+        if (dados.data[i].jogo.split('§')[0] in dicionario){
+            casa = dicionario[dados.data[i].jogo.split('§')[0]][0];
+        }else continue;
         j = casa+"§"+fora;
         if(names.includes(j))
             continue;
@@ -233,7 +238,33 @@ exports.liga = function(dados, liga) {
     return html;
 }
 
+function getBest(jogos){
+    var odds1 = [];
+    var oddsX = [];
+    var odds2 = [];
+    var best1 = {value: 0, casa: ""};
+    var bestX = {value: 0, casa: ""};
+    var best2 = {value: 0, casa: ""};
+    for (var i = 0; i < jogos.length; i++) {
+        if (jogos[i].odd1 > best1.value){
+            best1.value = jogos[i].odd1;
+            best1.casa = jogos[i].casa;
+        }
+        if (jogos[i].oddx > bestX.value){
+            bestX.value = jogos[i].oddx;
+            bestX.casa = jogos[i].casa;
+        }
+        if (jogos[i].odd2 > best2.value){
+            best2.value = jogos[i].odd2;
+            best2.casa = jogos[i].casa;
+        }
+    }
+    return [best1, bestX, best2];
+}
+
 exports.jogo = function(dados) {
+    var best = getBest(dados);
+    var coef = 1/((1/best[0].value) + (1/best[1].value) + (1/best[2].value));
     var html = `
     <!DOCTYPE html>
     <html>
@@ -299,6 +330,7 @@ exports.jogo = function(dados) {
             <div class="container">
                 <p><b>Equipa da Casa</b>: ${dados[0].jogo.split('§')[0]}</p>
                 <p><b>Equipa Fora</b>: ${dados[0].jogo.split('§')[1]}</p>
+                <p><b>Coeficiente</b>: ${coef}</p>
                 <p><b>Data</b>: ${dados[0].data}</p>
                 <p><b>Local</b>: ${dados[0].local}</p>
             </div>
@@ -320,6 +352,12 @@ exports.jogo = function(dados) {
                             <td>${item.odd2}</td>
                         </tr>
                 `).join('')}
+                    <tr>
+                        <td><b>Best Odds</b></td>
+                        <td><b>${best[0].value}</b></td>
+                        <td><b>${best[1].value}</b></td>
+                        <td><b>${best[2].value}</b></td>
+                    </tr>
                 </tbody>
             </table>
             </main>

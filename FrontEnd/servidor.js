@@ -8,7 +8,7 @@ var { parse } = require('querystring');
 var static = require('./static');
 
 // dar load a um dicionario apartir do ficheiro dicionario.json
-var dicionario = JSON.parse(fs.readFileSync('dicionario.json', 'utf-8'));
+var dicionario = JSON.parse(fs.readFileSync('../scrapping/dicionario.json', 'utf-8'));
 
 var servidor = http.createServer((req, res) => {
     if(static.staticResource(req)){
@@ -31,6 +31,18 @@ var servidor = http.createServer((req, res) => {
                             console.log(erro)
                             res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                             res.write("Não foi possível obter os dados da Liga Portuguesa.");
+                            res.end();
+                        })
+                }
+                else if (req.url == '/championsleague') {
+                        axios.get('http://localhost:3000/jogos?liga=Champions%20League').then(dados => {
+                            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+                            res.write(templates.liga(dados, "Champions League"));
+                            res.end();
+                        }).catch(erro => {
+                            console.log(erro)
+                            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+                            res.write("Não foi possível obter os dados da Champions League.");
                             res.end();
                         })
                 }

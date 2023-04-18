@@ -14,7 +14,6 @@ def myStrip(text):
 
 diciYaka = json.loads(open('dicionario.json').read())    
 
-# casa§fora
 def yakari(j1,j2,s1,s2):
     c1 = normaliza(j1.split('§')[0])
     c2 = normaliza(j2.split('§')[0])
@@ -74,7 +73,6 @@ def checkMatch(j1,j2):
     else:
         return False
 
-
 def main():
     global diciYaka
     with open('leagues.json','r+') as f:
@@ -125,4 +123,5 @@ def main():
         json.dump(diciYaka, f, ensure_ascii=False, indent=4)
 
 main()
+
 
